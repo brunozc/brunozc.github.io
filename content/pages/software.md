@@ -8,18 +8,45 @@ showTableOfContents: true
 
 <!-- title is already available from the headers -->
 
-I like developing software 
+I enjoy translating the research that I do into software that can be used by engineers and practitioners.
+
+Here you can find some of the open source projects that I have been working on.
 
 
 ## Numerical models
+### Rose
+[Rose](https://bitbucket.org/DeltaresGEO/rose/) is a train/track interaction model.
+It can simulate the passage of trains, changes in track stiffness and the presence of discontinuities along the railway track.
 
-[Rose](https://bitbucket.org/DeltaresGEO/rose/)
+_Train traveling over a transition zone_:
+![](/TZ.gif)
 
-Gif about transition zone
+### Scatter
+[Scatter](https://bitbucket.org/DeltaresGEO/scatter/) is a 3D FEM model that models wave propagation on spatial varying subsoil.
 
-[Scatter](https://bitbucket.org/DeltaresGEO/scatter/)
+_Wave propagation on random media_:
+![Alt Text](/RF_theta1_ani1.gif)
 
-![Alt Text](/video_rf.gif)
+With Scatter it is also possible to model the passage of train on spatial varying subsoil.
+
+_Train traveling on random media_:
+![Alt Text](/scatter_rose.gif)
+
+## Data
+
+### ROSE dashboard
+
+Dashboard to visualise the results obtained by combining [Rose](https://bitbucket.org/DeltaresGEO/rose/) with railway track data.
+
+
+
+
+## OURS
+
+[OURS](https://github.com/RIVM/OURS/)
+
+add something about ours
+
 
 ## Machine learning
 
@@ -28,3 +55,4 @@ Gif about transition zone
 
 
 
+Video of rose : dashboard use
