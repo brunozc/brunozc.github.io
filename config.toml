@@ -5,27 +5,27 @@ theme = 'gokarna'
 
 [menu]
   [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/pages/about_me"
+    weight = 1  # Weights are used to determine the ordering
+
+  [[menu.main]]
     identifier = "research"
     name = "Research"
     url = "/pages/research"
-    weight = 1  # Weights are used to determine the ordering
+    weight = 2
 
   [[menu.main]]
     identifier = "software"
     name = "Software"
     url = "/pages/software"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "publications"
-    name = "Publications"
-    url = "/pages/publications"
     weight = 3
 
   [[menu.main]]
-    identifier = "hobbies"
-    name = "Hobbies"
-    url = "/pages/hobbies"
+    identifier = "contact"
+    name = "Contact"
+    url = "/pages/contact"
     weight = 4
 
 
@@ -34,10 +34,10 @@ theme = 'gokarna'
   avatarURL = "/me.jpg"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-l"
+  avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "My work is driven by scientific curiosity motivated by my desire to help create and maintain resilient infrastructure. My work revolves around the assessment and improvement of a wide range of infrastructure, from railway tracks to flood defences, particularly applications involving dynamic soil structure interaction and the complex soil behaviour under dynamic or cyclic loading. I combine this with my passion for the implementation and optimisation of processes. This leads to the development of tailored software applications for the assessment of infrastructure. I am interested in the developments in Machine Learning and its application to geotechnical engineering. I believe that the future of modelling is within hybrid models, that consist of a combination of numerical models and data operating under machine learning algorithms. These models will be able to learn and accurately predict the response of infrastructure."
+  description = "I am a geotechnical engineer with a interest in dynamics, numerical modelling and AI."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
