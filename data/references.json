@@ -1,0 +1,1118 @@
+[
+	{
+		"type": "article-journal",
+		"title": "Viscoplastic cyclic degradation model for soft natural soils",
+		"journal": "Computers and Geotechnics",
+		"DOI": "10.1016/j.compgeo.2021.104176",
+		"page": "104176",
+		"volume": "135",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0266352X21001804",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Dijkstra",
+				"given": "Jelke"
+			},
+			{
+				"family": "Karstunen",
+				"given": "Minna"
+			}
+		],
+		"date": "2021"
+	},
+	{
+		"type": "article-journal",
+		"title": "Poroelastic solid flow with double point material point method",
+		"journal": "Journal of Hydrodynamics",
+		"DOI": "10.1016/S1001-6058(16)60752-7",
+		"page": "423-430",
+		"issue": "3",
+		"volume": "29",
+		"URL": "http://link.springer.com/10.1016/S1001-6058(16)60752-7",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "Bruno Zuada"
+			},
+			{
+				"family": "Rohe",
+				"given": "Alexander"
+			},
+			{
+				"family": "Soga",
+				"given": "Kenichi"
+			}
+		],
+		"date": "2017"
+	},
+	{
+		"type": "article-journal",
+		"title": "Dynamic behaviour of transition zones in soft soils during regular train traffic",
+		"journal": "Proceedings of the Institution of Mechanical Engineers, Part F: Journal of Rail and Rapid Transit",
+		"DOI": "10.1177/0954409716683078",
+		"page": "645-662",
+		"volume": "232",
+		"issue": "3",
+		"URL": "http://journals.sagepub.com/doi/10.1177/0954409716683078",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Priest",
+				"given": "Jeffrey"
+			},
+			{
+				"family": "Hölscher",
+				"given": "Paul"
+			}
+		],
+		"date": "2018"
+	},
+	{
+		"type": "article-journal",
+		"title": "Enhancement of double integration procedure through spectral subtraction",
+		"journal": "Soil Dynamics and Earthquake Engineering",
+		"DOI": "10.1016/j.soildyn.2010.12.013",
+		"page": "716-722",
+		"issue": "4",
+		"volume": "31",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0267726110002800",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "B."
+			},
+			{
+				"family": "Hölscher",
+				"given": "P."
+			},
+			{
+				"family": "Barends",
+				"given": "F."
+			}
+		],
+		"date": "2011"
+	},
+	{
+		"type": "article-journal",
+		"title": "Numerical analysis of railway transition zones in soft soil",
+		"journal": "Proceedings of the Institution of Mechanical Engineers, Part F: Journal of Rail and Rapid Transit",
+		"DOI": "10.1177/0954409715605864",
+		"page": "1601-1613",
+		"issue": "6",
+		"volume": "230",
+		"URL": "http://journals.sagepub.com/doi/10.1177/0954409715605864",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Hicks",
+				"given": "Michael A"
+			}
+		],
+		"date": "2016"
+	},
+	{
+		"type": "article-journal",
+		"title": "Dynamics of modular expansion joints: The Martinus Nijhoff Bridge",
+		"journal": "Engineering Structures",
+		"DOI": "10.1016/j.engstruct.2012.09.016",
+		"page": "144-154",
+		"volume": "48",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0141029612004944",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "B."
+			},
+			{
+				"family": "Vervuurt",
+				"given": "A.H.J.M."
+			},
+			{
+				"family": "Peelen",
+				"given": "W.H.A."
+			},
+			{
+				"family": "Leendertz",
+				"given": "J.S."
+			}
+		],
+		"date": "2013"
+	},
+	{
+		"type": "article-journal",
+		"title": "An Assessment of Transition Zone Performance",
+		"journal": "Proceedings of the Institution of Mechanical Engineers, Part F: Journal of Rail and Rapid Transit",
+		"DOI": "10.1177/09544097JRRT389",
+		"page": "129-139",
+		"issue": "2",
+		"volume": "225",
+		"URL": "http://journals.sagepub.com/doi/10.1177/09544097JRRT389",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Hölscher",
+				"given": "P"
+			},
+			{
+				"family": "Priest",
+				"given": "J"
+			},
+			{
+				"family": "Powrie",
+				"given": "W"
+			},
+			{
+				"family": "Barends",
+				"given": "F"
+			}
+		],
+		"date": "2011"
+	},
+	{
+		"type": "article-journal",
+		"title": "Data-gedreven methodes in geotechnische applicaties",
+		"journal": "Geotechniek",
+		"page": "51-55",
+		"issue": "4",
+		"volume": "23",
+		"URL": "https://issuu.com/uitgeverijeducom/docs/geotechniek.nov2019web/50",
+
+		"author": [
+			{
+				"family": "Noordam",
+				"given": "Aron"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			}
+		],
+		"date": "2019"
+	},
+	{
+		"type": "article-journal",
+		"title": "Long-term deformation of railway tracks considering train-track interaction and non-linear resilient behaviour of aggregates - a 3D FEM implementation",
+		"journal": "Computers and Geotechnics",
+		"DOI": "10.1016/j.compgeo.2020.103712",
+		"page": "103712",
+		"volume": "126",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0266352X20302755",
+		"author": [
+			{
+				"family": "Varandas",
+				"given": "J.N."
+			},
+			{
+				"family": "Paixão",
+				"given": "A."
+			},
+			{
+				"family": "Fortunato",
+				"given": "E."
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "B."
+			},
+			{
+				"family": "Hölscher",
+				"given": "P."
+			}
+		],
+		"date": "2020"
+	},
+	{
+		"type": "article-journal",
+		"title": "Towards network assessment of permanent railway track deformation",
+		"journal": "Transportation Geotechnics",
+		"DOI": "10.1016/j.trgeo.2021.100578",
+		"page": "100578",
+		"volume": 29,
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S2214391221000684",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Varandas",
+				"given": "José Nuno"
+			},
+			{
+				"family": "Hijma",
+				"given": "Marc P."
+			},
+			{
+				"family": "Zoeteman",
+				"given": "Arjen"
+			}
+		],
+		"date": "2021"
+	},
+	{
+		"type": "article-journal",
+		"title": "Data fusion of geotechnical and geophysical data for three-dimensional subsoil schematisations",
+		"journal": "Advanced Engineering Informatics",
+		"DOI": "10.1016/j.aei.2022.101671",
+		"page": "101671",
+		"volume": "53",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S1474034622001331",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Karaoulis",
+				"given": "Marios"
+			}
+		],
+		"date": "2022"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Geometric and material non-linear wave propagation with the material point method",
+		"container-title": "2nd International Conference on the Material Point Method",
+		"event-place": "Cambridge, UK",
+		"event-title": "MPM 2019",
+		"page": "201-207",
+		"publisher-place": "Cambridge, UK",
+		"URL": "https://tore.tuhh.de/handle/11420/3963",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "Bruno Zuada"
+			},
+			{
+				"family": "Chmelnizkij",
+				"given": "Alexander"
+			},
+			{
+				"family": "Grabe",
+				"given": "Jürgen"
+			}
+		],
+		"date": "2019"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Assessment of dike safety within the framework of large deformation analysis with the material point method",
+		"container-title": "Numerical Methods in Gotechnical Engineering IX",
+		"event-place": "Porto, Portugal",
+		"event-title": "NumGeo 2018",
+		"ISBN": "ISBN 978-1-138-33198-3",
+		"page": "657-663",
+		"publisher": "Taylor & Francis",
+		"publisher-place": "Porto, Portugal",
+		"URL": "https://www.taylorfrancis.com/chapters/edit/10.1201/9780429446931-82/assessment-dike-safety-within-framework-large-deformation-analysis-material-point-method-zuada-coelho-rohe-aboufirass",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "B."
+			},
+			{
+				"family": "Rohe",
+				"given": "Alexander"
+			},
+			{
+				"family": "Aboufirass",
+				"given": "A."
+			},
+			{
+				"family": "Nuttall",
+				"given": "J. D."
+			},
+			{
+				"family": "Bolognin",
+				"given": "M."
+			}
+		],
+		"date": "2018"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Annoyance due to vibration from freight railway lines in the Netherlands and Poland",
+		"container-title": "Euronoise 2015",
+		"event-place": "Maastricht, The Netherlands",
+		"page": "595-598",
+		"publisher-place": "Maastricht, The Netherlands",
+		"URL": "https://scholar.google.com/scholar_lookup?hl=en&publication_year=2015&author=S+Janssen&author=BZ+Coelho&author=A+Koopman&title=Annoyance+due+to+vibration+from+freight+railway+lines+in+the+Netherlands+and+Poland%22",
+		"author": [
+			{
+				"family": "Janssen",
+				"given": "S"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Koopman",
+				"given": "A"
+			},
+			{
+				"family": "Peris",
+				"given": "E"
+			},
+			{
+				"family": "Groll",
+				"given": "W"
+			},
+			{
+				"family": "Wisniewska",
+				"given": "K"
+			}
+		],
+		"date": "2015"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Early Warning Monitoring System of Modular Expansion Joints Based on Dynamic Behavior",
+		"container-title": "Memscon Conference, Towards Intelligent Civil Infrastructure",
+		"event-place": "Athens, Greece",
+		"page": "4",
+		"publisher-place": "Athens, Greece",
+		"URL": "https://scholar.google.nl/citations?view_op=view_citation&hl=en&user=AQkEIFIAAAAJ&citation_for_view=AQkEIFIAAAAJ:Tyk-4Ss8FVUC",
+		"author": [
+			{
+				"family": "Peelen",
+				"given": "Willy"
+			},
+			{
+				"family": "Vervuurt",
+				"given": "Adri"
+			},
+			{
+				"family": "Coelho",
+				"given": "Bruno Zuada"
+			},
+			{
+				"family": "Leendertz",
+				"given": "Han"
+			}
+		],
+		"date": "2012"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Compressor Foundation Analysis Tool (COFANTO)",
+		"container-title": "8th Conference of the EFRC",
+		"event-place": "Düsseldorf, Germany",
+		"publisher-place": "Düsseldorf, Germany",
+		"URL": "http://resolver.tudelft.nl/uuid:9d01bcc4-d08b-4a22-9cc9-30f8023cd86a",
+		"author": [
+			{
+				"family": "Eijk",
+				"given": "A."
+			},
+			{
+				"family": "Lentzen",
+				"given": "S. S. K."
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "B. E."
+			},
+			{
+				"family": "Galanti",
+				"given": "F. M. B."
+			}
+		],
+		"date": "2012"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Field test for reduction of maintenance of railway transition zones",
+		"container-title": "Proceedings of the 17th International Conference on Soil Mechanics and Geotechnical Engineering",
+		"DOI": "10.3233/978-1-60750-031-5-2076",
+		"event-place": "Egypt",
+		"event-title": "ICSMGE",
+		"language": "en",
+		"page": "2076-2079",
+		"publisher": "IOS Press",
+		"publisher-place": "Egypt",
+		"URL": "http://ebooks.iospress.nl/publication/30393",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Hölscher",
+				"given": "P"
+			},
+			{
+				"family": "Verweij",
+				"given": "A"
+			},
+			{
+				"family": "Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Kremer",
+				"given": "A"
+			},
+			{
+				"family": "Powrie",
+				"given": "W"
+			},
+			{
+				"family": "Priest",
+				"given": "J"
+			}
+		],
+		"date": "2009"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Estudo comparativo de diferentes métodos na análise dinâmica de lajes sobre estacas para suporte de vias férreas de alta velocidade",
+		"container-title": "Sísmica 2007",
+		"event-place": "Porto",
+		"language": "pt",
+		"page": "1-12",
+		"publisher-place": "Porto",
+		"URL": "https://scholar.google.nl/citations?view_op=view_citation&hl=en&user=AQkEIFIAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=AQkEIFIAAAAJ:ufrVoPGSRksC",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Calçada",
+				"given": "Rui"
+			},
+			{
+				"family": "Delgado",
+				"given": "Raimundo"
+			}
+		],
+		"date": "2007"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Frontiers in Shallow Subsurface Technology",
+		"event-place": "The Netherlands",
+		"page": "137-140",
+		"publisher-place": "The Netherlands",
+		"title": "On the enhancement of railways transitions zones behaviour through maintenance",
+		"URL": "https://www.earthdoc.org/content/papers/10.3997/2214-4609-pdb.150.E04",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Hölscher",
+				"given": "Paul"
+			},
+			{
+				"family": "Barends",
+				"given": "Frans B J"
+			},
+			{
+				"family": "Priest",
+				"given": "Jeffrey"
+			}
+		],
+		"date": "2010"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "1st International Conference on the Material Point Method",
+		"DOI": "10.1016/j.proeng.2017.01.035",
+		"event-place": "Cambridge",
+		"event-title": "MPM 2017",
+		"language": "en",
+		"page": "316-323",
+		"publisher": "Procedia Engineering",
+		"publisher-place": "Cambridge",
+		"title": "Poroelastic Solid Flow with Material Point Method",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S1877705817300358",
+		"volume": "175",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Rohe",
+				"given": "Alexander"
+			},
+			{
+				"family": "Soga",
+				"given": "Kenichi"
+			}
+		],
+		"date": "2017"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Noise and vibration on high-speed railways",
+		"event-place": "Porto",
+		"language": "en",
+		"page": "241-263",
+		"publisher": "FEUP",
+		"publisher-place": "Porto",
+		"title": "Train-track-ground interaction on high speed lines",
+		"URL": "https://scholar.google.com/scholar?cluster=12250880179769139032&hl=en&oi=scholarr",
+		"author": [
+			{
+				"family": "Calçada",
+				"given": "Rui"
+			},
+			{
+				"family": "Delgado",
+				"given": "R"
+			},
+			{
+				"family": "Cardoso",
+				"given": "A"
+			},
+			{
+				"family": "Costa",
+				"given": "P"
+			},
+			{
+				"family": "Santos",
+				"given": "N"
+			},
+			{
+				"family": "Ribeiro",
+				"given": "C"
+			},
+			{
+				"family": "Coelho",
+				"given": "B"
+			}
+		],
+		"date": "2008"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 21st European Young Geotechnical Engineers’ Conference",
+		"event-place": "The Netherlands",
+		"page": "133-139",
+		"publisher": "IOS Press",
+		"publisher-place": "The Netherlands",
+		"title": "Dynamic behaviour of transition zones in railways",
+		"URL": "https://ebooks.iospress.nl/doi/10.3233/978-1-60750-808-3-133",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "B E Z"
+			},
+			{
+				"family": "Hölscher",
+				"given": "P"
+			},
+			{
+				"family": "Barends",
+				"given": "F B J"
+			}
+		],
+		"date": "2011"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Railway Engineering 2009",
+		"event-place": "London",
+		"page": "1-9",
+		"publisher": "Engineering Technics Press",
+		"publisher-place": "London",
+		"title": "Monitoring of transition zones in railways",
+		"URL": "https://repository.tudelft.nl/islandora/object/uuid:2b4ea6ea-7ce3-4a0f-84ad-10f1db83055b?collection=research",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Priest",
+				"given": "Jeffrey"
+			},
+			{
+				"family": "Hölscher",
+				"given": "Paul"
+			},
+			{
+				"family": "Powrie",
+				"given": "William"
+			}
+		],
+		"date": "2009"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "4as Jornadas Portuguesas de Engenharia de Estruturas",
+		"event-place": "Lisbon",
+		"event-title": "JPPE 2006",
+		"page": "1-14",
+		"publisher-place": "Lisbon",
+		"title": "Comportamento dinâmico de laje sobre estacas para suporte de vias férreas de alta velocidade",
+		"URL": "https://scholar.google.com/scholar?cluster=11973062355026893793&hl=en&oi=scholarr",
+		"author": [
+			{
+				"family": "Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Calçada",
+				"given": "Rui"
+			},
+			{
+				"family": "Delgado",
+				"given": "Raimundo"
+			}
+		],
+		"date": "2006"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "International Conference on Noise and Vibration Engineering",
+		"event-place": "Leuven",
+		"event-title": "ISMA2012",
+		"language": "en",
+		"page": "1277-1288",
+		"publisher-place": "Leuven",
+		"title": "Techniques for the reduction of low frequency noise in buildings",
+		"URL": "http://past.isma-isaac.be/downloads/isma2012/papers/isma2012_0657.pdf",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Koopman",
+				"given": "A"
+			}
+		],
+		"date": "2012"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "International Conference on Noise and Vibration Engineering",
+		"event-place": "Leuven",
+		"event-title": "ISMA2012",
+		"page": "1263-1276",
+		"publisher-place": "Leuven",
+		"title": "Scaled test bench for the assessment of wave impeding barriers",
+		"URL": "http://past.isma-isaac.be/downloads/isma2012/papers/isma2012_0658.pdf",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Koopman",
+				"given": "A"
+			}
+		],
+		"date": "2012"
+	},
+	{
+		"type": "paper-conference",
+		"event-place": "Lisbon",
+		"event-title": "ICSTR",
+		"publisher-place": "Lisbon",
+		"title": "Monitoring of transition zones in railways",
+		"URL": "",
+		"author": [
+			{
+				"family": "Hölscher",
+				"given": "Paul"
+			},
+			{
+				"family": "Coelho",
+				"given": "Bruno"
+			}
+		],
+		"date": "2008"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "4th International Conference on Railway Technology (Railways 2018)",
+		"page": "1-5",
+		"title": "Effect of subsurface variability on the dynamic stiffness of railway infrastructures in the Netherlands",
+		"URL": "https://www.researchgate.net/publication/327552353_Effect_of_subsurface_variability_on_the_dynamic_stiffness_of_railway_infrastructures_in_the_Netherlands",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "B."
+			},
+			{
+				"family": "Hijma",
+				"given": "M."
+			}
+		],
+		"date": "2018"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Procedia Engineering",
+		"DOI": "10.1016/j.proeng.2017.01.027",
+		"page": "72-79",
+		"title": "Numerical Simulation of Pile Installation in Saturated Sand Using Material Point Method",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S1877705817300279",
+		"volume": "175",
+		"author": [
+			{
+				"family": "Galavi",
+				"given": "Vahid"
+			},
+			{
+				"family": "Beuth",
+				"given": "Lars"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Tehrani",
+				"given": "Faraz S."
+			},
+			{
+				"family": "Hölscher",
+				"given": "Paul"
+			},
+			{
+				"family": "Van Tol",
+				"given": "Frits"
+			}
+		],
+		"date": "2017"
+	},
+	{
+		"type": "paper-conference",
+		"abstract": "Multisensor data-fusion corresponds to the combination and analysis of data from diﬀerent sources, to provide a more reliable and accurate response. Although in the recent years several developments have occurred in the ﬁeld of multisensor data-fusion, this concept is hardly new. What has evolved in the past years is the emergence and proliferation of new sensors, data availability and the advances in processing techniques, which have made the real-time fusion of data increasingly possible. In this paper, InSar and Lidar height measurements are used in combination with geological scenarios and CPTs to discover areas along dike-infrastructure which are at risk for instability. It will be shown that data-fusion can be used on line infrastructure to identify geotechnical threats and their signiﬁcance, in time and in space.",
+		"container-title": "Information Technology in Geo-Engineering",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-32028-7",
+		"note": "DOI: 10.1007/978-3-030-32029-4_31",
+		"page": "365-375",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"title": "Data-Fusion in Geotechnical Applications",
+		"URL": "http://link.springer.com/10.1007/978-3-030-32029-4_31",
+		"editor": [
+			{
+				"family": "Correia",
+				"given": "António Gomes"
+			},
+			{
+				"family": "Tinoco",
+				"given": "Joaquim"
+			},
+			{
+				"family": "Cortez",
+				"given": "Paulo"
+			},
+			{
+				"family": "Lamas",
+				"given": "Luís"
+			}
+		],
+		"author": [
+			{
+				"family": "Noordam",
+				"given": "Aron"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Teixeira",
+				"given": "Ana"
+			},
+			{
+				"family": "Venmans",
+				"given": "Arjan"
+			}
+		],
+		"date": "2019"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "EURODYN 2020 Proceedings of the XI International Conference on Structural Dynamics",
+		"event-title": "EURODYN 2020",
+		"page": "2740-2762",
+		"publisher": "EASD European Association for Structural Dynamics",
+		"title": "Subsoil modelling for railway induced vibrations",
+		"volume": "2",
+		"URL": "https://www.easdprocedia.org/conferences/easd-conferences/eurodyn-2020/9225",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Lentzen",
+				"given": "S"
+			},
+			{
+				"family": "Pronk",
+				"given": "M"
+			},
+			{
+				"family": "Lange",
+				"given": "D",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Smyrniou",
+				"given": "E"
+			},
+			{
+				"family": "Hijma",
+				"given": "M"
+			}
+		],
+		"date": "2020"
+	},
+	{
+		"type": "paper-conference",
+		"event-place": "Rotterdam",
+		"event-title": "Life Cycle Management Workshop",
+		"page": "1",
+		"publisher": "InfraQuest",
+		"publisher-place": "Rotterdam",
+		"title": "Use of remote sensing for optimising the maintenance strategy of road transition zones: a data-driven solution",
+		"URL": "https://ialcce-lcmworkshop2019.com/wp-content/uploads/2019/10/abstracts-Data-1.pdf",
+		"author": [
+			{
+				"family": "Teixeira",
+				"given": "Ana"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "B."
+			},
+			{
+				"family": "Noordam",
+				"given": "Aron"
+			},
+			{
+				"family": "Rohe",
+				"given": "Alex"
+			},
+			{
+				"family": "Giangreco",
+				"given": "C"
+			}
+		],
+		"date": "2019"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Computer Methods and Recent Advances in Geomechanics",
+		"DOI": "10.1201/b17435-135",
+		"ISBN": "978-1-138-00148-0",
+		"language": "en",
+		"page": "785-790",
+		"publisher": "CRC Press",
+		"title": "Assessment of dike stability under earthquakes induced by gas extraction",
+		"URL": "http://www.crcnetbase.com/doi/abs/10.1201/b17435-135",
+		"editor": [
+			{
+				"family": "Oka",
+				"given": "Fusao"
+			},
+			{
+				"family": "Murakami",
+				"given": "Akira"
+			},
+			{
+				"family": "Uzuoka",
+				"given": "Ryosuke"
+			},
+			{
+				"family": "Kimoto",
+				"given": "Sayuri"
+			}
+		],
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Visschedijk",
+				"given": "M"
+			},
+			{
+				"family": "Korff",
+				"given": "M"
+			},
+			{
+				"family": "Meijers",
+				"given": "P"
+			}
+		],
+		"date": "2014"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Transportation Research Procedia",
+		"page": "8",
+		"title": "IN2ZONE Research project towards the Next Generation of Railway Transition",
+		"URL": "",
+		"author": [
+			{
+				"family": "Connolly",
+				"given": "D P"
+			},
+			{
+				"family": "Guo",
+				"given": "Y"
+			},
+			{
+				"family": "Esen",
+				"given": "A F"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "B"
+			},
+			{
+				"family": "Szatmari",
+				"given": "I"
+			},
+			{
+				"family": "Markine",
+				"given": "V"
+			},
+			{
+				"family": "Lojda",
+				"given": "V"
+			},
+			{
+				"family": "Garcia",
+				"given": "M"
+			},
+			{
+				"family": "Véha",
+				"given": "L J"
+			}
+		],
+		"date": "2022"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 20th International Conference on Soil Mechanics and Geotechnical Engineering",
+		"event-place": "Australia",
+		"language": "en",
+		"page": "4",
+		"publisher": "Australian Geomechanics Society",
+		"publisher-place": "Australia",
+		"source": "Zotero",
+		"title": "An open-source finite element approach complementary to a data-driven approach for assessment of line-infrastructure",
+		"volume": "2",
+		"URL": "",
+		"author": [
+			{
+				"family": "Noordam",
+				"given": "Aron"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			}
+		],
+		"date": "2022"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 20th International Conference on Soil Mechanics and Geotechnical Engineering",
+		"event-place": "Australia",
+		"page": "4",
+		"publisher": "Australian Geomechanics Society",
+		"publisher-place": "Australia",
+		"title": "Using neural network components to model soil constitutive behaviour",
+		"volume": "2",
+		"URL": "",
+		"author": [
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			},
+			{
+				"family": "Nuttall",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			}
+		],
+		"date": "2022"
+	},
+	{
+		"type": "book-chapter",
+		"title": "Dyke Embankment Analysis",
+		"container-title": "The Material Point Method for Geotechnical Engineering: a Practical Guide",
+		"edition": "1",
+		"ISBN": "978-0-429-02809-0",
+		"note": "DOI: 10.1201/9780429028090-1",
+		"publisher": "CRC Press",
+		"URL": "https://www.taylorfrancis.com/chapters/mono/10.1201/9780429028090-11/dyke-embankment-analysis-james-fern-alexander-rohe-kenichi-soga-eduardo-alonso?context=ubx&refId=8461587c-fa19-42a5-8283-d9665314b1e0",
+		"editor": [
+			{
+				"family": "Fern",
+				"given": "James"
+			},
+			{
+				"family": "Rohe",
+				"given": "Alexander"
+			},
+			{
+				"family": "Soga",
+				"given": "Kenichi"
+			},
+			{
+				"family": "Alonso",
+				"given": "Eduardo"
+			}
+		],
+		"date": "2019"
+	},
+	{
+		"type": "book-chapter",
+		"title": "Installation of Geocontainers",
+		"container-title": "The Material Point Method for Geotechnical Engineering: a Practical Guide",
+		"edition": "1",
+		"ISBN": "978-0-429-02809-0",
+		"note": "DOI: 10.1201/9780429028090-1",
+		"publisher": "CRC Press",
+		"URL": "https://www.taylorfrancis.com/chapters/mono/10.1201/9780429028090-20/installation-geocontainers-james-fern-alexander-rohe-kenichi-soga-eduardo-alonso?context=ubx&refId=0a2ddc56-4f3c-495e-ac1d-a707b012dfbb",
+		"editor": [
+			{
+				"family": "Fern",
+				"given": "James"
+			},
+			{
+				"family": "Rohe",
+				"given": "Alexander"
+			},
+			{
+				"family": "Soga",
+				"given": "Kenichi"
+			},
+			{
+				"family": "Alonso",
+				"given": "Eduardo"
+			}
+		],
+		"date": "2019"
+	}
+]

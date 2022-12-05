@@ -1,0 +1,13 @@
+{{ $type := .Get "type"}}
+{{ $year := .Get "year"}}
+
+<b> {{ $year }} </b>
+{{ range .Site.Data.references }}
+    {{ if and  (eq .type $type) (eq .date $year) }}
+    <p>
+        <ul>
+            <a href={{.URL}}>{{ .title }}</a>
+        </ul>
+    </p>
+    {{ end }}
+{{ end }}
