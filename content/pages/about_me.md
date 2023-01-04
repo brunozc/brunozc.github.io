@@ -20,7 +20,7 @@ These models will be able to learn and accurately predict the response of infras
 
 ### Deltares
 Since 2013 I work at [Deltares](https://www.deltares.nl/). Currently I hold the position of senior researcher in the
-department of Save and Resilient Infrastructure.
+department of Safe and Resilient Infrastructure.
 I am also a member of the [Young Scientific Council of Deltares](https://www.deltares.nl/en/news/meet-the-scientific-council-of-deltares/).
 The Scientific Council acts as the scientific conscience of Deltares and represents the scientific expertise of Deltares.
 
@@ -37,7 +37,7 @@ to combine open datasets to create full three-dimensional subsoil schematisation
 
 ### Chalmers University of Technology
 In 2016 (January - April) I was a visiting researcher at [Chalmers University of Technology](https://www.chalmers.se/en/).
-During this period I developed a novel constitutive model that accounts for the permanent deformations due cyclic loading of soft soils.
+During this period I developed a novel constitutive model that accounts for the permanent deformations due to cyclic loading of soft soils.
 The model accounts for fundamental features of natural soft soil behaviour, such as anisotropy, bonding and rate-dependence.
 
 ### University of Cambridge
@@ -48,8 +48,8 @@ of the Material Point Method, in which the solid and liquid phases are modelled 
 
 ### TNO
 Between 2011 and 2013 I worked as research scientist at [TNO](www.tno.nl).
-During this period I worked as a researcher on the European project [CargoVibes](https://cordis.europa.eu/project/id/266248/reporting).
-The research comprised the development of a new track system (ladder track) for the reduction of vibration propagation due to freight trains.
+During this period I was involved in the European project [CargoVibes](https://cordis.europa.eu/project/id/266248/reporting).
+This project comprised the development of a new track system (ladder track) for the reduction of vibration propagation due to freight trains.
 Additionally, I was involved on experimental and numerical work related to railway induced vibrations and its effects on nearby dwellings.
 During this period I developed software for real-time data acquisition and processing
 and developed numerical tools for the analysis of soil structure interaction problems.
@@ -57,11 +57,11 @@ and developed numerical tools for the analysis of soil structure interaction pro
 
 ## Education
 ### PhD in Civil Engineering
-Between 2017 and 2011 I did a PhD in Civil Engineering at [Delft University of Technology](https://tudelft.nl/).
+Between 2007 and 2011 I did a PhD in Civil Engineering at [Delft University of Technology](https://tudelft.nl/).
 
 Thesis: [_Dynamics of railway transition zones in soft soils_](https://repository.tudelft.nl/islandora/object/uuid:950e7ccd-1b18-4530-866d-5dd662fe0fa4?collection=research).
 
-### MSc degree
+### MSc Degree in Civil Engineering
 Between 2005 and 2007 I did a MSc in Structural Engineering at [University of Porto](https://fe.up.pt/).
 
 Thesis: _Dynamic behaviour of piled slab for high-speed trains_.

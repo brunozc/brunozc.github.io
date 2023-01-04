@@ -6,4 +6,5 @@ type: page
 showTableOfContents: true
 ---
 
-If you are interested in what I am doing or want to know more about it, please send me an [e-mail](mailto:bruno.zuadacoelho@deltares.nl).
+If you are interested in what I am doing, want to know more about it or if you have any questions,
+ free to reach out to [me](mailto:bruno.zuadacoelho@deltares.nl).
