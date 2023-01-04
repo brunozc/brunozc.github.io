@@ -1,2 +1,4 @@
 # VS code
 .vscode/
+# hugo build
+public/

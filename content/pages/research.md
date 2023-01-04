@@ -11,11 +11,12 @@ My research interests lie in the modelling of complex geotechnical infrastructur
 
 My current research focus can be summarised as follows:
 
+* Schematisation and parameterisation of subsurface using AI
+* Digital twins for infrastructure
 * Modelling of railway track degradation
 * Railway induced vibrations
 * Soil cyclic behaviour
-* Schematisation and parameterisation of subsurface using AI
-* Digital twins for infrastructure
+
 
 ## Publications
 
