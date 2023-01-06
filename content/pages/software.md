@@ -79,7 +79,7 @@ for multi-layered systems.
 ## Tools and utilities
 
 ### BRO reader
-[CPT connection]([https://bitbucket.org/DeltaresGEO/bro_reader/)  to the BRO to request and parse CPT data.
+[CPT connection](https://bitbucket.org/DeltaresGEO/bro_reader/)  to the BRO to request and parse CPT data.
 
 ### Signal processing
 [Signal processing tools](https://bitbucket.org/DeltaresGEO/signalprocessing/) for time signals
