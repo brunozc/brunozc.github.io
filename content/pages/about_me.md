@@ -32,7 +32,7 @@ Currently, I am working on projects related to the assessment of
 [stability of railway embankments](https://www.prorail.nl/nieuws/start-wetenschappelijk-onderzoek-spoordijken)
 and prediction of [railway induced vibrations](https://www.prorail.nl/nieuws/rekenmodel-spoortrillingen), and on the
 development of [data fusion](https://publicwiki.deltares.nl/display/TKIP/DEL136+-+Voorstel+3+DigiTwin+W+en+O),
-to combine open datasets to create full three-dimensional subsoil schematisations and parametrisations.
+to combine open datasets to create full three-dimensional subsurface schematisations and parametrisations.
 
 
 ### Chalmers University of Technology

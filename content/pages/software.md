@@ -15,12 +15,13 @@ Here you can find some of the open-source projects that I have recently been wor
 
 ## Numerical models
 ### Scatter
-[Scatter](https://bitbucket.org/DeltaresGEO/scatter/) is a 3D FEM model that models wave propagation on spatial varying subsoil.
+[Scatter](https://bitbucket.org/DeltaresGEO/scatter/) is a 3D FEM model that models wave propagation on
+spatial varying subsurface.
 
 _Wave propagation on random media_:
 ![](/RF_theta1_ani1.gif)
 
-With Scatter it is also possible to model the passage of trains on spatial varying subsoil.
+With Scatter it is also possible to model the passage of trains on spatial varying subsurface.
 
 _Train traveling on random media_:
 ![](/scatter_rose.gif)
@@ -35,7 +36,7 @@ _Train traveling over a transition zone_:
 
 
 ## Data models
-### ROSE dashboard
+### ROSE network analyses
 Dashboard to visualise the results obtained by combining [ROSE](#rose) with railway track data.
 The data is incorporated in the model by using [Kalman filtering](https://en.wikipedia.org/wiki/Kalman_filter),
 [clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and
@@ -44,17 +45,9 @@ The data is incorporated in the model by using [Kalman filtering](https://en.wik
 _Railway track settlement at network level_:
 ![](/dashboard.gif)
 
-### OURS
-[OURS](https://github.com/rivm-syso/OURS/) is the Dutch calculation method for railway induced vibrations.
-This model allows the estimation of the vibration level in dwellings nearby railway tracks.
-
-_Subsoil schematisation in OURS_:
-![](/ours.gif)
-
-
 ### Data Fusion Tools
 The [Data Fusion Tools](https://bitbucket.org/DeltaresGEO/datafusiontools/) are a framework to
-combine different data sets to perform subsoil schematisations and parametrisations, using AI.
+combine different data sets to perform subsurface schematisations and parametrisations, using AI.
 
 The general idea behind data fusion is that the combination of results from multiple data sources,
 leads to more and better information, than using a single data source.
@@ -64,17 +57,35 @@ by either increasing the spatial and temporal coverage, increase robustness,
 reduce noise and increase estimation accuracy, which would not be possible to achieve by using
 just information from a single individual data source.
 
-_Prediction of CPT data using data fusion of CPT and geomorphological data_:
+_Prediction of CPT data using data fusion of CPT, resistivity and geomorphological data_:
 ![](/CPTs.png)
 
-_Visualisation of data_:
+_Visualisation of data fusion data_:
 ![](/data_fusion.gif)
+
+### Optimisation of testing location for subsurface mapping
+[Super learn](https://bitbucket.org/zuada/cpt_super_learn.git) makes use of
+[reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) to determine the optimal locations for
+the execution of subsurface testing, in order to minimise the costs and errors.
+
+_Visualisation of the training_:
+![](/reinf_learn.gif)
 
 ### Random Layers
 [Random Layers](https://bitbucket.org/DeltaresGEO/randomlayers) generates Random Fields and Conditional Random Fields
 for multi-layered systems.
 
-![](/RF.gif)
+Overview 3D                |  Slice view
+:-------------------------:|:-------------------------:
+![](/RF.png)               |  ![](/RF.gif)
+
+### OURS
+[OURS](https://github.com/rivm-syso/OURS/) is the Dutch calculation method for railway induced vibrations.
+This model allows the estimation of the vibration level in dwellings nearby railway tracks.
+
+_Subsurface schematisation in OURS_:
+![](/ours.gif)
+
 
 ## Tools and utilities
 
