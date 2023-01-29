@@ -18,10 +18,14 @@ Here you can find some of the open-source projects that I have recently been wor
 [Scatter](https://bitbucket.org/DeltaresGEO/scatter/) is a 3D FEM model that models wave propagation on
 spatial varying subsurface.
 
-_Wave propagation on random media_:
+_Subsurface with spatial variability_:
+![](/RF_theta_1_5.png)
+
+_Wave propagation on subsurface with spatial variability_:
 ![](/RF_theta1_ani1.gif)
 
 With Scatter it is also possible to model the passage of trains on spatial varying subsurface.
+The train is modelled with the [ROSE](#rose) model.
 
 _Train traveling on random media_:
 ![](/scatter_rose.gif)
