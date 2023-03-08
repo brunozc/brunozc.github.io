@@ -282,6 +282,34 @@
 		"date": "2022"
 	},
 	{
+		"type": "article-journal",
+		"title": "The impact of soil variability on uncertainty in predictions of induced vibrations",
+		"journal": "Soil Dynamics and Earthquake Engineering",
+		"DOI": "10.1016/j.soildyn.2023.107855",
+		"page": "107855",
+		"volume": "169",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0267726123001008",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Nuttall",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Noordam",
+				"given": "Aron"
+			},
+			{
+				"family": "Dijkstra",
+				"given": "Jelke"
+			}
+		],
+		"date": "2023"
+	},
+	{
 		"type": "paper-conference",
 		"title": "Geometric and material non-linear wave propagation with the material point method",
 		"container-title": "2nd International Conference on the Material Point Method",

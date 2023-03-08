@@ -37,7 +37,7 @@ theme = 'gokarna'
   avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "I am a geotechnical engineer with an interest in dynamics, numerical modelling and AI."
+  description = "I am a research engineer with an interest in dynamics, numerical modelling and AI."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
