@@ -94,14 +94,14 @@ _Subsurface schematisation in OURS_:
 ## Tools and utilities
 
 ### BRO reader
-[CPT connection](https://bitbucket.org/DeltaresGEO/bro_reader/)  to the BRO to request and parse CPT data.
+[CPT connection](https://github.com/PlatypusBytes/GeoDataReader)  to the BRO to request and parse CPT data.
 
 ### Signal processing
-[Signal processing tools](https://bitbucket.org/DeltaresGEO/signalprocessing/) for time signals
+[Signal processing tools](https://github.com/PlatypusBytes/SignalProcessing) for time signals
 (filtering, integration, windowing, FFT, PSD).
 
 ### Dynamic stiffness
-[Dynamic stiffness](https://bitbucket.org/DeltaresGEO/wolfstiff/) following
+[Dynamic stiffness](https://github.com/PlatypusBytes/WolfStiffness) following
 [Wolf & Deeks (2004)](https://www.elsevier.com/books/foundation-vibration-analysis/wolf/978-0-7506-6164-5).
 
 ### Dynamic solvers
