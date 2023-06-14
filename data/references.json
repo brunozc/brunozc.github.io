@@ -310,6 +310,34 @@
 		"date": "2023"
 	},
 	{
+		"type": "article-journal",
+		"title": "Low amplitude strain accumulation model for natural soft clays below railways",
+		"journal": "Transportation Geotechnics",
+		"DOI": "10.1016/j.trgeo.2023.101011",
+		"page": "101011",
+		"volume": "",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S2214391223000843",
+		"author": [
+			{
+				"family": "Tahershamsi",
+				"given": "Hossein"
+			},
+			{
+				"family": "Ahmadi Naghadeh",
+				"given": "Reza"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Dijkstra",
+				"given": "Jelke"
+			}
+		],
+		"date": "2023"
+	},
+	{
 		"type": "paper-conference",
 		"title": "Geometric and material non-linear wave propagation with the material point method",
 		"container-title": "2nd International Conference on the Material Point Method",
