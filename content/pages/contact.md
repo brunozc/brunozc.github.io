@@ -7,4 +7,4 @@ showTableOfContents: true
 ---
 
 If you are interested in what I am doing, want to know more about it or if you have any questions,
- free to reach out to [me](mailto:bruno.zuadacoelho@deltares.nl).
+feel free to reach out to [me](mailto:bruno.zuadacoelho@deltares.nl).
