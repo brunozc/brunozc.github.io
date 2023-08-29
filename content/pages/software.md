@@ -15,7 +15,7 @@ Here you can find some of the open-source projects that I have recently been wor
 
 ## Numerical models
 ### Scatter
-[Scatter](https://bitbucket.org/DeltaresGEO/scatter/) is a 3D FEM model that models wave propagation on
+[Scatter](https://github.com/PlatypusBytes/scatter) is a 3D FEM model that models wave propagation on
 spatial varying subsurface.
 
 _Subsurface with spatial variability_:
