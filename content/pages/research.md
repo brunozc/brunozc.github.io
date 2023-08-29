@@ -59,7 +59,7 @@ My current research focus can be summarised as follows:
 ## MSc supervision
 
 #### 2023
-The use of inpainting with deep learning GANs and autoenconders in subsoil schematization (ongoing)
+[Deep Learning for Geotechnical Engineering The Effectiveness of Generative Adversarial Networks in Subsoil Schematization](https://repository.tudelft.nl/islandora/object/uuid:c18cb6cf-3574-484d-aacc-dabd882341de)
 
 #### 2019
 [Machine Learning Revealing Insights into Soil Stratification](https://repository.tudelft.nl/islandora/object/uuid:1b91c352-0544-4744-9023-4efbcfd8bdd7/datastream/OBJ/download)
