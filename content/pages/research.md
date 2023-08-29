@@ -59,7 +59,7 @@ My current research focus can be summarised as follows:
 ## MSc supervision
 
 #### 2023
-[Deep Learning for Geotechnical Engineering The Effectiveness of Generative Adversarial Networks in Subsoil Schematization](https://repository.tudelft.nl/islandora/object/uuid:c18cb6cf-3574-484d-aacc-dabd882341de)
+[Deep Learning for Geotechnical Engineering The Effectiveness of Generative Adversarial Networks in Subsoil Schematization](https://repository.tudelft.nl/islandora/object/uuid:c18cb6cf-3574-484d-aacc-dabd882341de/datastream/OBJ/download)
 
 #### 2019
 [Machine Learning Revealing Insights into Soil Stratification](https://repository.tudelft.nl/islandora/object/uuid:1b91c352-0544-4744-9023-4efbcfd8bdd7/datastream/OBJ/download)
