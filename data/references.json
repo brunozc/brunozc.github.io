@@ -339,6 +339,45 @@
 	},
 	{
 		"type": "paper-conference",
+		"title": "Using Generative Adversarial Networks to create a 2D subsoil schematization",
+		"container-title": "4th International Symposium on Machine Learning and Big Data in Geoscience",
+		"event-place": "University Cork, Ireland",
+		"volume": "35",
+		"URL": "https://www.researchgate.net/profile/Bruno-Zuada-Coelho-2/publication/373659491_Using_Generative_Adversarial_Networks_to_create_a_2D_subsoil_schematization/links/64f6eb574c70687b8ed420e4/Using-Generative-Adversarial-Networks-to-create-a-2D-subsoil-schematization.pdf?origin=publicationDetail&_sg%5B0%5D=6CqU4ioxg_j7GXp9SJn7XGTScYBQu6S8YXwe0kaBDoQhjnQd-mU0Kkw-dYKO2ejdH6fqu6KyqFsnC_rv4it-wQ.6pH1rtGjsTtLWhZ5IHnj4ndWzw4V376NJum6H2gFLwkHtFWxaPMngf7JFUvBNPpfwzsPmxXD0oRmJm3f3bLzzg&_sg%5B1%5D=nADxojKr5p1f7pE2RELJnUF28FqgCGkKGvhYJnQkeEMYEpQlKJrgfzIeD7UEByYG5r-8m3lALhATjgkmAU7ipLEvsGmEPXTQEz5KrF1Vq01I.6pH1rtGjsTtLWhZ5IHnj4ndWzw4V376NJum6H2gFLwkHtFWxaPMngf7JFUvBNPpfwzsPmxXD0oRmJm3f3bLzzg&_iepl=&_rtd=eyJjb250ZW50SW50ZW50IjoibWFpbkl0ZW0ifQ%3D%3D&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoicHVibGljYXRpb24iLCJwcmV2aW91c1BhZ2UiOiJwcm9maWxlIn19",
+		"author": [
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			}
+		],
+		"date": "2023"
+	},
+	{
+		"type": "paper-conference",
+		"title": "Optimisation of in-situ soil investigation with Deep Reinforcement Learning",
+		"container-title": "4th International Symposium on Machine Learning and Big Data in Geoscience",
+		"event-place": "University Cork, Ireland",
+		"volume": "124",
+		"URL": "https://www.researchgate.net/profile/Bruno-Zuada-Coelho-2/publication/373659484_Optimisation_of_in-situ_soil_investigation_with_Deep_Reinforcement_Learning/links/64f6eb8548c07f3da3db9d2a/Optimisation-of-in-situ-soil-investigation-with-Deep-Reinforcement-Learning.pdf?origin=publicationDetail&_sg%5B0%5D=PzcEW1Mp-UVHzR8SdwcnRDYAz7oab9MKSxpebcDLH8q0XSuUuthgsaRe1o4s16xdbOxcK0Z83mVwMfsFIyaaFw.7eIQwW-YWfLW8ymAKMczDb4bki5WG7qJdsswakUhN07wr7iXd8blU0dC7iIBS4CzVrlGgcNShw6WIrd9N6XUZw&_sg%5B1%5D=Su6yuF2Hv1V0fkwryKeLBEPv2hwxHIzwfKVsqI0yF4IiRJ2_EVoE0Jqp9OHAAhoOibqNO_aVHh4SP90BuUBtGmcdhFitNKcX-voUgLiIXNcQ.7eIQwW-YWfLW8ymAKMczDb4bki5WG7qJdsswakUhN07wr7iXd8blU0dC7iIBS4CzVrlGgcNShw6WIrd9N6XUZw&_iepl=&_rtd=eyJjb250ZW50SW50ZW50IjoibWFpbkl0ZW0ifQ%3D%3D&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoicHVibGljYXRpb24iLCJwcmV2aW91c1BhZ2UiOiJwcm9maWxlIn19",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			}
+
+		],
+		"date": "2023"
+	},
+	{
+		"type": "paper-conference",
 		"title": "Geometric and material non-linear wave propagation with the material point method",
 		"container-title": "2nd International Conference on the Material Point Method",
 		"event-place": "Cambridge, UK",
@@ -348,8 +387,8 @@
 		"URL": "https://tore.tuhh.de/handle/11420/3963",
 		"author": [
 			{
-				"family": "Coelho",
-				"given": "Bruno Zuada"
+				"family": "Zuada Coelho",
+				"given": "Bruno"
 			},
 			{
 				"family": "Chmelnizkij",
@@ -451,8 +490,8 @@
 				"given": "Adri"
 			},
 			{
-				"family": "Coelho",
-				"given": "Bruno Zuada"
+				"family": "Zuada Coelho",
+				"given": "Bruno"
 			},
 			{
 				"family": "Leendertz",
@@ -479,7 +518,7 @@
 			},
 			{
 				"family": "Zuada Coelho",
-				"given": "B. E."
+				"given": "B."
 			},
 			{
 				"family": "Galanti",
