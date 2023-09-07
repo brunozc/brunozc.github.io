@@ -58,6 +58,7 @@ theme = 'gokarna'
     {name = "linkedin", url = "https://www.linkedin.com/in/bruno-zuada-coelho/"},
     {name = "researchgate", url = "https://www.researchgate.net/profile/Bruno-Zuada-Coelho"},
     {name = "googlescholar", url = "https://scholar.google.nl/citations?user=AQkEIFIAAAAJ&hl=en"},
+    {name = "github", url = "https://github.com/brunozc"},
     ]
 
   # Footer text
