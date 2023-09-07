@@ -479,7 +479,7 @@
 		"event-place": "Athens, Greece",
 		"page": "4",
 		"publisher-place": "Athens, Greece",
-		"URL": "https://www.researchgate.net/publication/280740791_Assessment_of_dike_stability_under_earthquakes_induced_by_gas_extraction",
+		"URL": "https://www.researchgate.net/publication/280740580_Early_Warning_Monitoring_System_of_Modular_Expansion_Joints_Based_on_Dynamic_Behaviour",
 		"author": [
 			{
 				"family": "Peelen",
@@ -813,25 +813,6 @@
 			}
 		],
 		"date": "2012"
-	},
-	{
-		"type": "paper-conference",
-		"event-place": "Lisbon",
-		"event-title": "ICSTR",
-		"publisher-place": "Lisbon",
-		"title": "Monitoring of transition zones in railways",
-		"URL": "",
-		"author": [
-			{
-				"family": "Hölscher",
-				"given": "Paul"
-			},
-			{
-				"family": "Coelho",
-				"given": "Bruno"
-			}
-		],
-		"date": "2008"
 	},
 	{
 		"type": "paper-conference",
