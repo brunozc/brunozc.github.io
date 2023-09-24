@@ -32,7 +32,7 @@ _Train traveling on random media_:
 
 
 ### ROSE
-[ROSE](https://bitbucket.org/DeltaresGEO/rose/) is a train/track interaction model.
+[ROSE](https://github.com/PlatypusBytes/ROSE/) is a train/track interaction model.
 It can simulate the passage of trains, changes in track stiffness and the presence of discontinuities along the railway track.
 
 _Train traveling over a transition zone_:
@@ -41,7 +41,7 @@ _Train traveling over a transition zone_:
 
 ## Data models
 ### ROSE network analyses
-Dashboard to visualise the results obtained by combining [ROSE](#rose) with railway track data.
+[Dashboard](https://github.com/PlatypusBytes/ROSE-dashboard) to visualise the results obtained by combining [ROSE](#rose) with railway track data.
 The data is incorporated in the model by using [Kalman filtering](https://en.wikipedia.org/wiki/Kalman_filter),
 [clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and
 [inverse analysis](https://en.wikipedia.org/wiki/Inverse_problem).
@@ -105,4 +105,4 @@ _Subsurface schematisation in OURS_:
 [Wolf & Deeks (2004)](https://www.elsevier.com/books/foundation-vibration-analysis/wolf/978-0-7506-6164-5).
 
 ### Dynamic solvers
-[Numerical solvers](https://bitbucket.org/DeltaresGEO/solvers/) for dynamic equilibrium equations.
+[Numerical solvers](https://github.com/PlatypusBytes/solvers/) for dynamic equilibrium equations.
