@@ -76,7 +76,7 @@ _Visualisation of the training_:
 ![](/reinf_learn.gif)
 
 ### Random Layers
-[Random Layers](https://bitbucket.org/DeltaresGEO/randomlayers) generates Random Fields and Conditional Random Fields
+[Random Layers](https://github.com/brunozc/RandomLayers) generates Random Fields and Conditional Random Fields
 for multi-layered systems.
 
 Overview 3D                |  Slice view
