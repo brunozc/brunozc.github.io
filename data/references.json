@@ -1039,9 +1039,9 @@
 	{
 		"type": "paper-conference",
 		"container-title": "Transportation Research Procedia",
-		"page": "8",
+		"page": "3110-3117",
 		"title": "IN2ZONE Research project towards the Next Generation of Railway Transition",
-		"URL": "https://www.in2zone.eu/",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S2352146523011699",
 		"author": [
 			{
 				"family": "Connolly",
@@ -1080,7 +1080,7 @@
 				"given": "L J"
 			}
 		],
-		"date": "2022"
+		"date": "2023"
 	},
 	{
 		"type": "paper-conference",
