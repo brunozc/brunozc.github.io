@@ -10,13 +10,34 @@ showTableOfContents: true
 
 I enjoy translating the research that I do into software that can be used by engineers, consultants and practitioners.
 
-Here you can find some of the open-source projects that I have recently been working on.
+Here you can find some of the open-source projects that I have been recently working on.
 
 
 ## Numerical models
+
+### STEM
+[STEM](https://github.com/StemVibrations/STEM) is a numerical model that simulates railway induced vibrations.
+STEM accounts for the train-track interaction and the propagation of the vibrations through the subsurface.
+The model is able to compute the vibration levels at the ground surface taking into account the presence of
+irregularities in the track geometry, the type of train and train speed, and the spatial variability of the track and soil properties.
+The STEM model is based on the finite element method and it is powered by [Kratos Multiphysics](https://github.com/KratosMultiphysics/Kratos).
+
+STEM consists of the following components:
+
+* STEM
+* Geometry generator utils (based on [gmsh](https://gmsh.info/)
+* Vehicle models
+* Random field generator (based on [GS Tools](https://geostat-framework.org/))
+* Kratos Multiphysics
+
+STEM can be installed via [pip](https://pypi.org/project/STEM-Vibrations/). The [STEM documentation](https://stemvibrations.readthedocs.io/) constains instructions on how to install STEM and constains several tutorials.
+
+_Train traveling on random media_:
+![](/scatter_rose.gif)
+
 ### Scatter
 [Scatter](https://github.com/PlatypusBytes/scatter) is a 3D FEM model that models wave propagation on
-spatial varying subsurface.
+spatial varying subsurface. The spatial variability is modelled by means of Random Fields.
 
 _Subsurface with spatial variability_:
 ![](/RF_theta_1_5.png)
@@ -24,11 +45,11 @@ _Subsurface with spatial variability_:
 _Wave propagation on subsurface with spatial variability_:
 ![](/RF_theta1_ani1.gif)
 
-With Scatter it is also possible to model the passage of trains on spatial varying subsurface.
+<!-- With Scatter it is also possible to model the passage of trains on spatial varying subsurface.
 The train is modelled with the [ROSE](#rose) model.
 
 _Train traveling on random media_:
-![](/scatter_rose.gif)
+![](/scatter_rose.gif) -->
 
 
 ### ROSE
