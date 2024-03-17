@@ -25,7 +25,7 @@ The STEM model is based on the finite element method and it is powered by [Krato
 STEM consists of the following components:
 
 * STEM
-* Geometry generator utils (based on [gmsh](https://gmsh.info/)
+* Geometry generator utils (based on [gmsh](https://gmsh.info/))
 * Vehicle models
 * Random field generator (based on [GS Tools](https://geostat-framework.org/))
 * Kratos Multiphysics
@@ -89,7 +89,7 @@ _Visualisation of data fusion data_:
 ![](/data_fusion.gif)
 
 ### Optimisation of testing location for subsurface mapping
-[Super learn](https://bitbucket.org/zuada/cpt_super_learn.git) makes use of
+[Super learn](https://github.com/brunozc/cpt_super_learn) makes use of
 [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) to determine the optimal locations for
 the execution of subsurface testing, in order to minimise the costs and errors.
 
