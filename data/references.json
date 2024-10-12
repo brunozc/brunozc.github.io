@@ -1189,5 +1189,44 @@
 			}
 		],
 		"date": "2019"
+	},
+	{
+		"type": "MSc-thesis",
+		"title": "Deep Learning for Geotechnical Engineering The Effectiveness of Generative Adversarial Networks in Subsoil Schematization",
+		"URL": "https://repository.tudelft.nl/islandora/object/uuid:c18cb6cf-3574-484d-aacc-dabd882341de/datastream/OBJ/download",
+		"school": "TU Delft",
+		"author": [
+			{
+				"family": "Campos-Montero",
+				"given": "Fabian"
+			}
+		],
+		"date": "2023"
+	},
+	{
+		"type": "MSc-thesis",
+		"title": "Machine Learning Revealing Insights into Soil Stratification",
+		"URL": "https://repository.tudelft.nl/islandora/object/uuid:1b91c352-0544-4744-9023-4efbcfd8bdd7/datastream/OBJ/download",
+		"school": "TU Delft",
+		"author": [
+			{
+				"family": "Leunge",
+				"given": "Laurens"
+			}
+		],
+		"date": "2019"
+	},
+	{
+		"type": "MSc-thesis",
+		"title": "Soil Constitutive Modelling Using Neural Networks",
+		"URL": "https://repository.tudelft.nl/islandora/object/uuid:278a44fc-086c-4f7d-8d67-dfd07f12edbb/datastream/OBJ/download",
+		"school": "TU Delft",
+		"author": [
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			}
+		],
+		"date": "2018"
 	}
 ]
