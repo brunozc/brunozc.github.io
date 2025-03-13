@@ -1,6 +1,38 @@
 [
 	{
 		"type": "article-journal",
+		"title": "SchemaGAN: A conditional Generative Adversarial Network for geotechnical subsurface schematisation",
+		"journal": "Computers and Geotechnics",
+		"DOI": "10.1016/j.compgeo.2025.107177",
+		"page": "107177",
+		"volume": "183",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0266352X25001260",
+		"author": [
+			{
+				"family": "Campos Montero",
+				"given": "Fabian"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			},
+			{
+				"family": "Taormina",
+				"given": "Riccardo"
+			},
+			{
+				"family": "Vardon",
+				"given": "Phil"
+			}
+		],
+		"date": "2021"
+	},
+	{
+		"type": "article-journal",
 		"title": "Viscoplastic cyclic degradation model for soft natural soils",
 		"journal": "Computers and Geotechnics",
 		"DOI": "10.1016/j.compgeo.2021.104176",
