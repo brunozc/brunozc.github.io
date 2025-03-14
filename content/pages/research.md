@@ -22,6 +22,7 @@ My current research focus can be summarised as follows:
 
 ### Journals
 <!-- create bibliography shortcode with json info from data (json can be exported from zotero) -->
+{{< references type="article-journal" year="2025">}}
 {{< references type="article-journal" year="2023">}}
 {{< references type="article-journal" year="2022">}}
 {{< references type="article-journal" year="2021">}}
