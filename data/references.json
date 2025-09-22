@@ -1,6 +1,30 @@
 [
 	{
 		"type": "article-journal",
+		"title": "Optimizing geotechnical in-situ site investigations using Deep Reinforcement Learning",
+		"journal": "Geodata and AI",
+		"DOI": "10.1016/j.geoai.2025.100038",
+		"page": "100038",
+		"volume": "1",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S3050483X25000371",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			},
+			{
+				"family": "Campos Montero",
+				"given": "Fabian"
+			}
+		],
+		"date": "2025"
+	},
+	{
+		"type": "article-journal",
 		"title": "SchemaGAN: A conditional Generative Adversarial Network for geotechnical subsurface schematisation",
 		"journal": "Computers and Geotechnics",
 		"DOI": "10.1016/j.compgeo.2025.107177",
@@ -1163,6 +1187,39 @@
 			}
 		],
 		"date": "2022"
+	},
+	{
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 29th European Young Geotechnical Engineers Conference EYGEC 2025",
+		"event-place": "Rijeka",
+		"page": "4",
+		"publisher": "Croatian Geotechnical Society and University of Rijeka, Faculty of Civil Engineering",
+		"publisher-place": "Croatia",
+		"title": "GEOSYN: Synthetic Geotechnical Cross-Sections for Machine Learning Applications",
+		"URL": "https://doi.org/10.32762/eygec.2025.23",
+		"author": [
+			{
+				"family": "Campos Montero",
+				"given": "Fabian"
+			},
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Taormina",
+				"given": "Riccardo"
+			},
+			{
+				"family": "Vardon",
+				"given": "Philip"
+			}
+		],
+		"date": "2025"
 	},
 	{
 		"type": "book-chapter",
