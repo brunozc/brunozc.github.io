@@ -1,11 +1,47 @@
 [
 	{
 		"type": "article-journal",
+		"title": "STEM: A finite element framework for railway induced vibrations",
+		"journal": "SoftwareX",
+		"DOI": "10.1016/j.softx.2026.102892",
+		"page": "102892",
+		"volume": "35",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S2352711026003833",
+		"author": [
+			{
+				"family": "Noordam",
+				"given": "Aron"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Smyrniou",
+				"given": "Eleni"
+			},
+			{
+				"family": "Fathian",
+				"given": "Marjan"
+			},
+			{
+				"family": "Nuttall",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Moretti",
+				"given": "Davide"
+			}
+		],
+		"date": "2026"
+	},
+	{
+		"type": "article-journal",
 		"title": "Optimizing geotechnical in-situ site investigations using Deep Reinforcement Learning",
 		"journal": "Geodata and AI",
 		"DOI": "10.1016/j.geoai.2025.100038",
 		"page": "100038",
-		"volume": "1",
+		"volume": "6",
 		"URL": "https://www.sciencedirect.com/science/article/pii/S3050483X25000371",
 		"author": [
 			{
@@ -21,7 +57,7 @@
 				"given": "Fabian"
 			}
 		],
-		"date": "2025"
+		"date": "2026"
 	},
 	{
 		"type": "article-journal",

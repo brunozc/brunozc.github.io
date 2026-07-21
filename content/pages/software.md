@@ -19,8 +19,10 @@ Here you can find some of the open-source projects that I have been recently wor
 [STEM](https://github.com/StemVibrations/STEM) is a numerical model that simulates railway induced vibrations.
 STEM accounts for the train-track interaction and the propagation of the vibrations through the subsurface.
 The model is able to compute the vibration levels at the ground surface taking into account the presence of
-irregularities in the track geometry, the type of train and train speed, and the spatial variability of the track and soil properties.
-The STEM model is based on the finite element method and it is powered by [Kratos Multiphysics](https://github.com/KratosMultiphysics/Kratos).
+irregularities in the track geometry, the type of train and train speed, and the spatial variability of the track
+and soil properties.
+The STEM model is based on the finite element method and it is powered by
+[Kratos Multiphysics](https://github.com/KratosMultiphysics/Kratos).
 
 STEM consists of the following components:
 
@@ -30,7 +32,9 @@ STEM consists of the following components:
 * Random field generator (based on [GS Tools](https://geostat-framework.org/))
 * Kratos Multiphysics
 
-STEM can be installed via [pip](https://pypi.org/project/STEM-Vibrations/). The [STEM documentation](https://stemvibrations.readthedocs.io/) constains instructions on how to install STEM and constains several tutorials.
+STEM can be installed via [pip](https://pypi.org/project/STEM-Vibrations/). The
+[STEM documentation](https://stemvibrations.readthedocs.io/) constains instructions on how to install STEM and
+constains several tutorials.
 
 _Train traveling on random media_:
 ![](/scatter_rose.gif)
@@ -54,15 +58,18 @@ _Train traveling on random media_:
 
 ### ROSE
 [ROSE](https://github.com/PlatypusBytes/ROSE/) is a train/track interaction model.
-It can simulate the passage of trains, changes in track stiffness and the presence of discontinuities along the railway track.
+It can simulate the passage of trains, changes in track stiffness and the presence of discontinuities
+along the railway track.
 
 _Train traveling over a transition zone_:
 ![](/TZ.gif)
 
 
 ## Data models
+
 ### ROSE network analyses
-[Dashboard](https://github.com/PlatypusBytes/ROSE-dashboard) to visualise the results obtained by combining [ROSE](#rose) with railway track data.
+[Dashboard](https://github.com/PlatypusBytes/ROSE-dashboard) to visualise the results obtained by combining
+[ROSE](#rose) with railway track data.
 The data is incorporated in the model by using [Kalman filtering](https://en.wikipedia.org/wiki/Kalman_filter),
 [clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and
 [inverse analysis](https://en.wikipedia.org/wiki/Inverse_problem).
@@ -89,9 +96,10 @@ _Visualisation of data fusion data_:
 ![](/data_fusion.gif)
 
 ### Optimisation of testing location for subsurface mapping
-[Super learn](https://github.com/brunozc/cpt_super_learn) makes use of
-[reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) to determine the optimal locations for
-the execution of subsurface testing, in order to minimise the costs and errors.
+[CPT superlearn](https://github.com/brunozc/cpt_super_learn) makes use of
+[deep reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) to determine the optimal
+locations for the execution of subsurface testing (e.g. CPT tests), in order to minimise both costs and mean
+squared errors.
 
 _Visualisation of the training_:
 ![](/reinf_learn.gif)
@@ -122,8 +130,12 @@ _Subsurface schematisation in OURS_:
 (filtering, integration, windowing, FFT, PSD).
 
 ### Dynamic stiffness
-[Dynamic stiffness](https://github.com/PlatypusBytes/WolfStiffness) following
+[Dynamic stiffness](https://github.com/PlatypusBytes/WolfStiffness) computes the dynamic stiffness of a layered soil system following
 [Wolf & Deeks (2004)](https://www.elsevier.com/books/foundation-vibration-analysis/wolf/978-0-7506-6164-5).
 
+### Critical train speed
+[GoTrain](https://github.com/PlatypusBytes/GoTrain/) computes the critical train speed for a given track and soil system, following [Mezher et al. (2016)](https://www.sciencedirect.com/science/article/abs/pii/S2214391215000239).
+
+
 ### Dynamic solvers
-[Numerical solvers](https://github.com/PlatypusBytes/solvers/) for dynamic equilibrium equations.
+[Numerical solvers](https://github.com/PlatypusBytes/solvers/) to solve dynamic equilibrium equations. It supports Newmark, HHT, CDM, and other methods, running on CPU and GPU.
