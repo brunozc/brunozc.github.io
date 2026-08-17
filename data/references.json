@@ -430,6 +430,37 @@
 	},
 	{
 		"type": "paper-conference",
+		"title": "Assessment of critical train speeds of railways on soft soils - a case study",
+		"container-title": "Soft Soils 2026",
+		"event-place": "Delft, the Netherlands",
+		"volume": "05001",
+		"URL": "https://www.e3s-conferences.org/articles/e3sconf/abs/2026/48/e3sconf_soft-soils2026_05001/e3sconf_soft-soils2026_05001.html",
+		"author": [
+			{
+				"family": "Linnemann",
+				"given": "Yaro"
+			},
+			{
+				"family": "Campos Montero",
+				"given": "Fabian"
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "van Duinen",
+				"given": "Alexander"
+			},
+			{
+				"family": "Fern",
+				"given": "James"
+			}
+		],
+		"date": "2026"
+	},
+	{
+		"type": "paper-conference",
 		"title": "Using Generative Adversarial Networks to create a 2D subsoil schematization",
 		"container-title": "4th International Symposium on Machine Learning and Big Data in Geoscience",
 		"event-place": "University Cork, Ireland",

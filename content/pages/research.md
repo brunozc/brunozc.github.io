@@ -43,6 +43,7 @@ My current research focus can be summarised as follows:
 {{< references type="book-chapter" year="2019">}}
 
 ### Conferences
+{{< references type="paper-conference" year="2026">}}
 {{< references type="paper-conference" year="2025">}}
 <!-- {{< references type="paper-conference" year="2024">}} -->
 {{< references type="paper-conference" year="2023">}}
