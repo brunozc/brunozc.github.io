@@ -430,6 +430,24 @@
 	},
 	{
 		"type": "paper-conference",
+		"title": "STEM: An Open-Source Model for Simulation of Railway Induced Vibrations and Its Applications",
+		"container-title": "EURODYN 2026 Proceedings of the XIII International Conference on Structural Dynamics",
+		"event-place": "Hannover, Germany",
+		"URL": "https://doi.org/10.47964/1326.10800.119",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Noordam",
+				"given": "Aron"
+			}
+		],
+		"date": "2026"
+	},
+	{
+		"type": "paper-conference",
 		"title": "Assessment of critical train speeds of railways on soft soils - a case study",
 		"container-title": "Soft Soils 2026",
 		"event-place": "Delft, the Netherlands",
