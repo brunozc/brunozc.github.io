@@ -2,3 +2,5 @@
 .vscode/
 # hugo build
 public/
+# hugo build lock
+.hugo_build.lock
