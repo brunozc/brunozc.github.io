@@ -1,0 +1,8 @@
+{{- /* true when at least one item of a media list will render (file present, or placeholder in development) */ -}}
+{{- $show := false }}
+{{- range . }}
+  {{- if or (not hugo.IsProduction) (fileExists (path.Join "static" (strings.TrimPrefix "/" .src))) }}
+    {{- $show = true }}
+  {{- end }}
+{{- end }}
+{{- return $show }}

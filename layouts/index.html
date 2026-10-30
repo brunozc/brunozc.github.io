@@ -1,37 +1,42 @@
 {{ define "main" }}
-<section class="home-about">
-	<div class="avatar">
-        {{ if isset .Site.Params "avatarurl" }}
-        <img class={{ .Site.Params.AvatarSize | default "size-m" }} src='{{ .Site.BaseURL }}{{ .Site.Params.AvatarURL }}' alt="{{ .Site.Params.AvatarAltText|default "avatar" }}" />
-        {{ end }}
-	</div>
-    <h1>{{ .Site.Title }}</h1>
-    <h3>{{ .Site.Params.Description }}</h3>
+<section class="hero">
+  <img class="portrait" src="{{ site.Params.portrait | relURL }}" alt="Portrait of {{ site.Title }}" width="480" height="480">
+  <div class="hero-text">
+    <h1>{{ site.Title }}</h1>
+    <p class="hero-role">
+      {{ site.Params.role }} at <a href="{{ site.Params.affiliationURL }}">{{ site.Params.affiliation }}</a><span class="hero-location">{{ site.Params.location }}</span>
+    </p>
+    <div class="hero-intro">{{ .Content }}</div>
+    {{ partial "profiles.html" (dict) }}
+  </div>
 </section>
 
-<div class="flex-break"></div>
-
-{{ if isset .Site.Params "socialicons" }}
-<section class="social-icons">
-    <ul class="social-icons-list">
-        {{ range .Site.Params.SocialIcons }}
-        <li class="social-icon">
-            <a href="{{ .url }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
-                <img class="svg-inject" src="{{ $.Site.BaseURL }}/svg/icons/{{ .name }}.svg" />
-            </a>
-        </li>
-        {{ end }}
-    </ul>
+{{- $research := "pages/research/" | relURL }}
+<section class="home-section" aria-labelledby="focus-title">
+  <div class="section-head">
+    <h2 id="focus-title">Research focus</h2>
+    <a class="more" href="{{ $research }}">Research &rarr;</a>
+  </div>
+  <ul class="focus-list">
+    {{- range site.Data.research.themes }}
+    <li>
+      <a href="{{ $research }}#{{ .id }}">{{ .title }}</a>
+      <span>{{ .short }}</span>
+    </li>
+    {{- end }}
+  </ul>
 </section>
-{{ end }}
 
-<!-- Render content/_index.md if it exists and isn't empty -->
-{{ if (and (fileExists "content/_index.md") .Content) }}
-<hr>
-<section class="home-content">
-    {{ .Content }}
+<section class="home-section" aria-labelledby="pubs-title">
+  <div class="section-head">
+    <h2 id="pubs-title">Recent publications</h2>
+    <a class="more" href="{{ $research }}#journal-articles">All publications &rarr;</a>
+  </div>
+  {{- $pubs := where site.Data.references "type" "in" (slice "article-journal" "paper-conference") }}
+  <ol class="pub-list">
+    {{- range first 5 (sort $pubs "date" "desc") }}
+    {{ partial "pub.html" (dict "ref" . "showYear" true) }}
+    {{- end }}
+  </ol>
 </section>
-{{ end }}
-
-
 {{ end }}

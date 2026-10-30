@@ -451,7 +451,7 @@
 		"title": "Assessment of critical train speeds of railways on soft soils - a case study",
 		"container-title": "Soft Soils 2026",
 		"event-place": "Delft, the Netherlands",
-		"volume": "05001",
+		"volume": "730",
 		"URL": "https://www.e3s-conferences.org/articles/e3sconf/abs/2026/48/e3sconf_soft-soils2026_05001/e3sconf_soft-soils2026_05001.html",
 		"author": [
 			{
@@ -473,6 +473,39 @@
 			{
 				"family": "Fern",
 				"given": "James"
+			}
+		],
+		"date": "2026",
+		"page": "05001",
+		"DOI": "10.1051/e3sconf/202673005001"
+	},
+	{
+		"type": "paper-conference",
+		"title": "On the Influence of Iterative Model Updating on Long-Term Differential Settlement in Ballasted Railway Tracks",
+		"container-title": "Proceedings of the Seventh International Conference on Railway Technology: Research, Development and Maintenance (Railways 2026)",
+		"collection-title": "Civil-Comp Conferences",
+		"publisher": "Civil-Comp Press",
+		"event-place": "Budapest, Hungary",
+		"volume": "15",
+		"page": "1-15",
+		"DOI": "10.4203/ccc.15.18.1",
+		"URL": "https://doi.org/10.4203/ccc.15.18.1",
+		"author": [
+			{
+				"family": "Nielsen",
+				"given": "J.C.O."
+			},
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			},
+			{
+				"family": "Nasrollahi",
+				"given": "K."
+			},
+			{
+				"family": "Wong",
+				"given": "D."
 			}
 		],
 		"date": "2026"
@@ -512,7 +545,6 @@
 				"family": "Smyrniou",
 				"given": "Eleni"
 			}
-
 		],
 		"date": "2023"
 	},
@@ -1014,7 +1046,6 @@
 		"container-title": "Information Technology in Geo-Engineering",
 		"event-place": "Cham",
 		"ISBN": "978-3-030-32028-7",
-		"note": "DOI: 10.1007/978-3-030-32029-4_31",
 		"page": "365-375",
 		"publisher": "Springer International Publishing",
 		"publisher-place": "Cham",
@@ -1056,7 +1087,8 @@
 				"given": "Arjan"
 			}
 		],
-		"date": "2019"
+		"date": "2019",
+		"DOI": "10.1007/978-3-030-32029-4_31"
 	},
 	{
 		"type": "paper-conference",
@@ -1221,7 +1253,8 @@
 				"given": "L J"
 			}
 		],
-		"date": "2023"
+		"date": "2023",
+		"DOI": "10.1016/j.trpro.2023.11.871"
 	},
 	{
 		"type": "paper-conference",
@@ -1304,7 +1337,8 @@
 				"given": "Philip"
 			}
 		],
-		"date": "2025"
+		"date": "2025",
+		"DOI": "10.32762/eygec.2025.23"
 	},
 	{
 		"type": "book-chapter",
@@ -1312,7 +1346,6 @@
 		"container-title": "The Material Point Method for Geotechnical Engineering: a Practical Guide",
 		"edition": "1",
 		"ISBN": "978-0-429-02809-0",
-		"note": "DOI: 10.1201/9780429028090-1",
 		"publisher": "CRC Press",
 		"URL": "https://www.taylorfrancis.com/chapters/mono/10.1201/9780429028090-11/dyke-embankment-analysis-james-fern-alexander-rohe-kenichi-soga-eduardo-alonso?context=ubx&refId=8461587c-fa19-42a5-8283-d9665314b1e0",
 		"editor": [
@@ -1333,7 +1366,8 @@
 				"given": "Eduardo"
 			}
 		],
-		"date": "2019"
+		"date": "2019",
+		"DOI": "10.1201/9780429028090-11"
 	},
 	{
 		"type": "book-chapter",
@@ -1341,7 +1375,6 @@
 		"container-title": "The Material Point Method for Geotechnical Engineering: a Practical Guide",
 		"edition": "1",
 		"ISBN": "978-0-429-02809-0",
-		"note": "DOI: 10.1201/9780429028090-1",
 		"publisher": "CRC Press",
 		"URL": "https://www.taylorfrancis.com/chapters/mono/10.1201/9780429028090-20/installation-geocontainers-james-fern-alexander-rohe-kenichi-soga-eduardo-alonso?context=ubx&refId=0a2ddc56-4f3c-495e-ac1d-a707b012dfbb",
 		"editor": [
@@ -1362,7 +1395,8 @@
 				"given": "Eduardo"
 			}
 		],
-		"date": "2019"
+		"date": "2019",
+		"DOI": "10.1201/9780429028090-20"
 	},
 	{
 		"type": "MSc-thesis",
@@ -1402,5 +1436,18 @@
 			}
 		],
 		"date": "2018"
+	},
+	{
+		"type": "thesis",
+		"title": "Dynamics of railway transition zones in soft soils",
+		"school": "Delft University of Technology",
+		"URL": "https://repository.tudelft.nl/islandora/object/uuid:950e7ccd-1b18-4530-866d-5dd662fe0fa4?collection=research",
+		"author": [
+			{
+				"family": "Zuada Coelho",
+				"given": "Bruno"
+			}
+		],
+		"date": "2011"
 	}
 ]

@@ -1,0 +1,294 @@
+# Software projects for the Software page, grouped by `group` (models, ai, tools).
+# `featured` and `short` are not displayed at the moment: the home page no longer lists software.
+#
+#   links:   buttons under the description (label + url)
+#   related: smaller inline links ("Related: ...")
+#   media:   images (.png/.jpg) or videos (.mp4) inside static/media/software/.
+#            Videos use <name>.jpg as poster when present, or the image set in `poster`.
+#            When a file does not exist yet, `hugo server` shows a placeholder; the production build hides it.
+
+projects:
+  # numerical models
+  - name: STEM
+    group: models
+    lang: Python
+    featured: true
+    url: https://github.com/StemVibrations/STEM
+    short: Finite element model for railway-induced vibrations, from the train-track interaction to the ground surface.
+    description: >-
+      Numerical model that simulates railway-induced vibrations, including the train-track interaction and the
+      propagation of vibrations through the subsurface. STEM computes the vibration levels at the ground surface,
+      taking into account track irregularities, the type and speed of the train, and the spatial variability of the
+      track and soil properties. It is based on the finite element method and powered by
+      [Kratos Multiphysics](https://github.com/KratosMultiphysics/Kratos).
+    related:
+      - {name: gmsh utils, url: "https://github.com/StemVibrations/gmsh_utils"}
+      - {name: vehicle models (UVEC), url: "https://github.com/StemVibrations/vehicle_models"}
+      - {name: RandomFields, url: "https://github.com/StemVibrations/RandomFields"}
+    links:
+      - {label: Code, url: "https://github.com/StemVibrations/STEM"}
+      - {label: Docs, url: "https://stemvibrations.readthedocs.io/"}
+      - {label: PyPI, url: "https://pypi.org/project/STEM-Vibrations/"}
+      - {label: Paper, url: "https://doi.org/10.1016/j.softx.2026.102892"}
+      - {label: Test cases, url: "https://stemvibrations.github.io/TestCases/"}
+    media:
+      - src: media/software/long.mp4
+        caption: Train travelling over a spatially variable subsurface.
+
+  - name: ROSE
+    group: models
+    lang: Python
+    featured: true
+    url: https://github.com/PlatypusBytes/ROSE
+    short: Train-track interaction model for the long-term degradation of railway tracks.
+    description: >-
+      Train-track interaction model for railway track degradation. ROSE simulates the passage of trains, changes in
+      track stiffness and discontinuities along the track, and computes the long-term deformation caused by train
+      traffic. Measured data can be used to improve the schematisation and parameterisation of the model.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/ROSE"}
+      - {label: Docs, url: "https://rose-model.readthedocs.io/"}
+      - {label: DOI, url: "https://doi.org/10.5281/zenodo.19615295"}
+      - {label: Paper, url: "https://www.researchgate.net/publication/368394447_An_open-source_finite_element_approach_complementary_to_a_data-driven_approach_for_assessment_of_line-infrastructure"}
+    media:
+      - src: media/software/TZ.mp4
+        caption: Train travelling over a transition zone.
+
+  - name: Scatter
+    group: models
+    lang: Python
+    url: https://github.com/PlatypusBytes/scatter
+    description: >-
+      3D finite element model for wave propagation in a spatially variable subsurface. The spatial variability of
+      the soil is modelled with random fields.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/scatter"}
+      - {label: Paper, url: "https://doi.org/10.1016/j.soildyn.2023.107855"}
+    media:
+      - src: media/software/RF_theta_1_5.png
+        caption: Subsurface with spatial variability.
+      - src: media/software/RF_theta1_ani1.mp4
+        caption: Wave propagation through the spatially variable subsurface.
+
+  - name: OURS
+    group: models
+    url: https://github.com/rivm-syso/OURS
+    description: >-
+      The Dutch calculation method for railway-induced vibrations, which estimates the vibration levels in dwellings
+      near railway tracks. The [OURS CPT tool](https://github.com/PlatypusBytes/OURS) creates the subsurface
+      schematisation from the BRO CPT dataset, the geomorphological map and NHI data.
+    links:
+      - {label: Code, url: "https://github.com/rivm-syso/OURS"}
+      - {label: CPT tool, url: "https://github.com/PlatypusBytes/OURS"}
+      - {label: Paper, url: "https://www.easdprocedia.org/conferences/easd-conferences/eurodyn-2020/9225"}
+    media:
+      - src: media/software/ours.mp4
+        caption: Subsurface schematisation in OURS.
+
+  - name: PipeFEM
+    group: models
+    lang: Python
+    url: https://github.com/brunozc/PipeFEM
+    description: >-
+      Dynamic finite element model of a partially buried pipeline under cyclic loading. The pipeline is modelled
+      with 3D beam elements, with a curved transition where it enters the ground, and the soil with springs and
+      dashpots along the buried section. The equation of motion is solved in the time domain with the Newmark method,
+      and the soil stiffness and damping are reduced iteratively with the amplitude of the cyclic displacement.
+    links:
+      - {label: Code, url: "https://github.com/brunozc/PipeFEM"}
+    media:
+      - src: media/software/pipefem.mp4
+        poster: media/software/pipefem.png
+        caption: Deflection of the pipeline under the cyclic load F(t) on the buried section.
+
+  - name: DEMcookies
+    group: models
+    lang: Python
+    url: https://github.com/brunozc/DEM
+    description: >-
+      Two- and three-dimensional discrete element model for granular materials. Particles are rained into a
+      container under gravity and then loaded by rigid bodies, such as footings, indenters or sleepers, with a
+      time-dependent force. Pore water can be included, with buoyancy, drag and an optional coupled excess pore
+      pressure, for problems such as the cyclic loading of railway ballast, consolidation and upward seepage.
+    links:
+      - {label: Code, url: "https://github.com/brunozc/DEM"}
+    media:
+      - src: media/software/hopper_discharge_3d.mp4
+        caption: Particles rained into a 3D hopper and discharged through the opening at the bottom.
+
+  - name: Anura3D
+    group: models
+    lang: Fortran
+    url: https://github.com/Anura3D/Anura3D_OpenSource
+    description: >-
+      Material point method software for large deformations and soil-water-structure interaction, developed by the
+      Anura3D MPM Research Community. I contributed to it between 2015 and 2018, including the development and
+      validation of the double-point formulation, in which the solid and liquid phases are modelled with separate
+      sets of material points.
+    links:
+      - {label: Code, url: "https://github.com/Anura3D/Anura3D_OpenSource"}
+      - {label: Paper, url: "https://doi.org/10.1016/S1001-6058(16)60752-7"}
+      - {label: Book, url: "https://doi.org/10.1201/9780429028090"}
+    media:
+      - src: media/software/geocontainer.mp4
+        caption: Installation of a geocontainer, sinking through water.
+
+  # data-driven and AI models
+  - name: SchemaGAN
+    group: ai
+    lang: Python
+    featured: true
+    url: https://github.com/fabcamo/schemaGAN
+    short: Conditional GAN that generates subsurface schematisations from sparse CPT data.
+    description: >-
+      Conditional generative adversarial network that generates 2D geotechnical subsurface schematisations from
+      sparse CPT data. It is trained on synthetic geotechnical cross-sections.
+    links:
+      - {label: Code, url: "https://github.com/fabcamo/schemaGAN"}
+      - {label: PyTorch version, url: "https://github.com/PlatypusBytes/schemaGAN-pytorch"}
+      - {label: Paper, url: "https://doi.org/10.1016/j.compgeo.2025.107177"}
+    media:
+      - src: media/software/schemagan.png
+        caption: >-
+          Schematisation from CPT-like input with SchemaGAN, compared with nearest neighbour, inverse distance
+          weighting, ordinary kriging, natural neighbour and inpainting, and the error of each.
+      - src: media/software/box_cptlocation.png
+        caption: Mean absolute error of SchemaGAN and the interpolation methods, for simple and complex schematisations.
+
+  - name: CPT SuperLearn
+    group: ai
+    lang: Python
+    url: https://github.com/brunozc/cpt_super_learn
+    description: >-
+      Deep reinforcement learning to determine the optimal locations for in-situ tests, such as CPTs, minimising both
+      the cost of the site investigation and the error of the resulting subsurface model.
+    links:
+      - {label: Code, url: "https://github.com/brunozc/cpt_super_learn"}
+      - {label: Paper, url: "https://doi.org/10.1016/j.geoai.2025.100038"}
+    media:
+      - src: media/software/drl.mp4
+        poster: media/software/drl.png
+        caption: >-
+          Training of the reinforcement learning agent, followed by the trained agent choosing the in-situ test
+          locations on unseen validation fields, compared with uniform spacing.
+
+  - name: Data Fusion Tools
+    group: ai
+    lang: Python
+    featured: true
+    url: https://bitbucket.org/DeltaresGEO/datafusiontools/
+    short: Framework that fuses geotechnical and geophysical data into 3D subsurface models.
+    description: >-
+      Framework to combine different datasets into subsurface schematisations and parameterisations using AI.
+      Combining sources such as CPTs, resistivity surveys and geomorphological maps adds redundant and complementary
+      information, which increases reliability and spatial coverage and reduces uncertainty compared with any single
+      source.
+    links:
+      - {label: Code, url: "https://bitbucket.org/DeltaresGEO/datafusiontools/"}
+      - {label: Paper, url: "https://doi.org/10.1016/j.aei.2022.101671"}
+    media:
+      - src: media/software/data_fusion.mp4
+        caption: Visualisation of a data fusion model.
+      - src: media/software/CPTs.png
+        caption: Prediction of CPT data by fusing CPT, resistivity and geomorphological data.
+
+  - name: ROSE network dashboard
+    group: ai
+    lang: Python
+    url: https://github.com/PlatypusBytes/ROSE-dashboard
+    description: >-
+      Dashboard to visualise the results of combining [ROSE](#rose) with railway track data at network level.
+      The data are incorporated with Kalman filtering, clustering and inverse analysis.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/ROSE-dashboard"}
+      - {label: Paper, url: "https://doi.org/10.1016/j.trgeo.2021.100578"}
+    media:
+      - src: media/software/dashboard.mp4
+        caption: Railway track settlement at network level.
+
+  - name: Random Layers
+    group: ai
+    lang: Python
+    url: https://github.com/brunozc/RandomLayers
+    description: >-
+      Generates random fields and conditional random fields for multi-layered soil systems.
+    links:
+      - {label: Code, url: "https://github.com/brunozc/RandomLayers"}
+    media:
+      - src: media/software/RF.png
+        caption: 3D overview.
+      - src: media/software/RF.mp4
+        caption: Slice view.
+
+  # libraries and tools
+  - name: RandomFields
+    group: tools
+    lang: Python
+    url: https://github.com/StemVibrations/RandomFields
+    description: >-
+      Random fields in 2D and 3D on unstructured grids, with Gaussian, exponential, Matérn and linear covariance
+      models, based on [GSTools](https://geostat-framework.org/).
+    links:
+      - {label: Code, url: "https://github.com/StemVibrations/RandomFields"}
+
+  - name: PuggleSolvers
+    group: tools
+    lang: Python
+    url: https://github.com/PlatypusBytes/solvers
+    description: >-
+      Static and time-integration solvers (Newmark, HHT, central difference and others) for the equation of motion,
+      with dense or sparse matrices and optional GPU acceleration.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/solvers"}
+      - {label: PyPI, url: "https://pypi.org/project/PuggleSolvers/"}
+
+  - name: ConstitutiveModels
+    group: tools
+    lang: Fortran · C
+    url: https://github.com/PlatypusBytes/ConstitutiveModels
+    description: >-
+      Library of soil constitutive models in UMAT format, including Mohr-Coulomb, Matsuoka-Nakai and models for
+      interface elements.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/ConstitutiveModels"}
+
+  - name: TrainCritSpeed
+    group: tools
+    lang: Python · Go
+    url: https://github.com/PlatypusBytes/TrainCritSpeed
+    description: >-
+      Critical train speed for a track on layered soil, following
+      [Mezher et al. (2016)](https://www.sciencedirect.com/science/article/abs/pii/S2214391215000239), with the soil
+      dispersion computed by the Fast Delta Matrix method. Also available in Go as GoTrain.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/TrainCritSpeed"}
+      - {label: GoTrain, url: "https://github.com/PlatypusBytes/GoTrain"}
+      - {label: Paper, url: "https://doi.org/10.1051/e3sconf/202673005001"}
+
+  - name: WolfStiffness
+    group: tools
+    lang: Python
+    url: https://github.com/PlatypusBytes/WolfStiffness
+    description: >-
+      Dynamic stiffness and damping of a layered soil system, following
+      [Wolf & Deeks (2004)](https://www.elsevier.com/books/foundation-vibration-analysis/wolf/978-0-7506-6164-5).
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/WolfStiffness"}
+
+  - name: SignalProcessing
+    group: tools
+    lang: Python
+    url: https://github.com/PlatypusBytes/SignalProcessing
+    description: >-
+      Processing of time signals: filtering, integration, windowing, FFT and PSD.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/SignalProcessing"}
+
+  - name: GeoDataReader
+    group: tools
+    lang: Python
+    url: https://github.com/PlatypusBytes/GeoDataReader
+    description: >-
+      Reader for public Dutch geo-data, such as requesting and parsing CPT data from the BRO.
+    links:
+      - {label: Code, url: "https://github.com/PlatypusBytes/GeoDataReader"}

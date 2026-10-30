@@ -1,0 +1,21 @@
+{{- /*
+  Lists all references of one CSL type from data/references.json, newest first, grouped by year.
+  Usage: {{< publications type="article-journal" >}}
+*/ -}}
+{{- $type := .Get "type" }}
+{{- $items := sort (where site.Data.references "type" $type) "date" "desc" }}
+{{- $years := slice }}
+{{- range $items }}{{ $years = $years | append .date }}{{ end }}
+<div class="publications">
+  {{- range uniq $years }}
+  {{- $year := . }}
+  <section class="pub-year">
+    <h4 class="pub-year-label">{{ $year }}</h4>
+    <ol class="pub-list">
+      {{- range where $items "date" $year }}
+      {{ partial "pub.html" (dict "ref" .) }}
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+</div>

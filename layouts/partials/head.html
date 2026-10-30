@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) }}
+  {{- $description := .Description | default site.Params.description }}
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $description }}">
+  <meta name="author" content="{{ site.Title }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <meta property="og:type" content="{{ if .IsHome }}profile{{ else }}website{{ end }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ site.Params.portrait | absURL }}">
+  <meta name="twitter:card" content="summary">
+
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+
+  {{- /* apply the stored theme before first paint to avoid a flash of the wrong theme */}}
+  <script>
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+
+  {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+  {{- if .IsHome }}{{ partial "jsonld.html" . }}{{ end }}
+</head>

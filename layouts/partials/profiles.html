@@ -1,0 +1,11 @@
+{{- /* profile links from params.profiles; "labels" shows names next to icons, "compact" uses smaller buttons */ -}}
+<ul class="profiles{{ if .compact }} profiles-compact{{ end }}{{ if .labels }} profiles-labelled{{ end }}">
+  {{- range site.Params.profiles }}
+  <li>
+    <a href="{{ .url }}"{{ if not (hasPrefix .url "mailto:") }} rel="me noopener"{{ end }} title="{{ .name }}">
+      {{- partial "icon.html" .icon -}}
+      <span class="{{ if not $.labels }}sr-only{{ end }}">{{ .name }}</span>
+    </a>
+  </li>
+  {{- end }}
+</ul>

@@ -1,0 +1,13 @@
+{{- /*
+  Compact software entry. Arguments (dict): project (entry from data/software.yaml),
+  short (use the one-line summary instead of the full description).
+*/ -}}
+{{- $p := .project }}
+<article class="tile"{{ if not .short }} id="{{ $p.name | urlize }}"{{ end }}>
+  <h3>
+    <a href="{{ $p.url }}">{{ $p.name }}</a>
+    {{- with $p.lang }} <span class="tag">{{ . }}</span>{{ end }}
+  </h3>
+  <p>{{ (cond .short ($p.short | default $p.description) $p.description) | markdownify }}</p>
+  {{- partial "link-list.html" $p.links }}
+</article>

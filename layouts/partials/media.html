@@ -1,0 +1,43 @@
+{{- /*
+  Renders an image or a looping video from static/.
+  Arguments (dict): src (path inside static/), caption, alt, placeholder (what the figure should show), poster.
+  Videos (.mp4/.webm) use "<name>.jpg" next to them as poster when it exists.
+  A missing file renders a placeholder box during `hugo server` and nothing in the production build,
+  so figures can be dropped into static/ later without touching the templates.
+*/ -}}
+{{- $src := strings.TrimPrefix "/" .src }}
+{{- $file := path.Join "static" $src }}
+{{- $ext := lower (path.Ext $src) }}
+{{- $alt := .alt | default .caption | default "" | plainify }}
+{{- if fileExists $file }}
+<figure class="media">
+  {{- if in (slice ".mp4" ".webm") $ext }}
+    {{- $poster := .poster | default (printf "%s.jpg" (strings.TrimSuffix $ext $src)) }}
+    {{- $posterFile := path.Join "static" $poster }}
+    <video controls muted loop playsinline preload="none" data-autoplay
+      {{- if fileExists $posterFile }}{{ with imageConfig $posterFile }} poster="{{ $poster | relURL }}" width="{{ .Width }}" height="{{ .Height }}"{{ end }}{{ end }}
+      {{- with $alt }} aria-label="{{ . }}"{{ end }}>
+      <source src="{{ $src | relURL }}" type="video/{{ strings.TrimPrefix "." $ext }}">
+    </video>
+  {{- else }}
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy" decoding="async"
+      {{- if in (slice ".png" ".jpg" ".jpeg" ".gif" ".webp") $ext }}{{ with imageConfig $file }} width="{{ .Width }}" height="{{ .Height }}"{{ end }}{{ end }}>
+  {{- end }}
+  {{- with .caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+{{- else if not hugo.IsProduction }}
+<figure class="media media-placeholder">
+  <div class="placeholder-box">
+    <span class="placeholder-label">Figure placeholder</span>
+    {{- with .placeholder }}
+    <span class="placeholder-hint">{{ . }}</span>
+    {{- end }}
+    <code>static/{{ $src }}</code>
+  </div>
+  {{- with .caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+{{- end }}

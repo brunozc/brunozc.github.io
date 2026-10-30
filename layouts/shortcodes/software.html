@@ -1,0 +1,14 @@
+{{- /*
+  Lists the projects of one group from data/software.yaml.
+  Usage: {{< software group="models" >}} (rows with media) or {{< software group="tools" layout="tiles" >}}.
+*/ -}}
+{{- $projects := where site.Data.software.projects "group" (.Get "group") }}
+{{- if eq (.Get "layout") "tiles" }}
+<div class="tiles">
+  {{- range $projects }}{{ partial "project-tile.html" (dict "project" .) }}{{ end }}
+</div>
+{{- else }}
+<div class="projects">
+  {{- range $projects }}{{ partial "project.html" . }}{{ end }}
+</div>
+{{- end }}

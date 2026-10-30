@@ -1,0 +1,43 @@
+{{- /* research themes from data/research.yaml, with key papers looked up in data/references.json */ -}}
+{{- $refs := site.Data.references }}
+{{- $softwarePage := "pages/software/" | relURL }}
+<div class="themes">
+  {{- range site.Data.research.themes }}
+  {{- $hasMedia := partial "has-media.html" .media }}
+  <section class="theme{{ if $hasMedia }} has-media{{ end }}" id="{{ .id }}">
+    <div class="theme-text">
+      <h3>{{ .title }}</h3>
+      <p>{{ .summary | markdownify }}</p>
+      {{- with .papers }}
+      <p class="theme-label">Key papers</p>
+      <ul class="theme-papers">
+        {{- range . }}
+        {{- /* papers are identified by DOI, or by exact title when there is no DOI */}}
+        {{- $match := where $refs "DOI" . }}
+        {{- if not $match }}{{ $match = where $refs "title" . }}{{ end }}
+        {{- range first 1 $match }}
+        {{- $link := .URL }}
+        {{- with .DOI }}{{ $link = printf "https://doi.org/%s" . }}{{ end }}
+        <li>
+          <a href="{{ $link }}">{{ .title }}</a>
+          <span class="theme-paper-meta">{{ .journal | default (index . "container-title") }}, {{ .date }}</span>
+        </li>
+        {{- end }}
+        {{- end }}
+      </ul>
+      {{- end }}
+      {{- with .software }}
+      <p class="theme-software">
+        Software:
+        {{- range $i, $name := . }}{{ if $i }} ·{{ end }} <a href="{{ $softwarePage }}#{{ $name | urlize }}">{{ $name }}</a>{{ end }}
+      </p>
+      {{- end }}
+    </div>
+    {{- if $hasMedia }}
+    <div class="theme-media">
+      {{- range .media }}{{ partial "media.html" . }}{{ end }}
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+</div>
