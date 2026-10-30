@@ -1,0 +1,27 @@
+{{- /*
+  Formats a CSL author list as "A. B. Family, ..." and highlights the site owner.
+  Arguments (dict): authors (CSL name list), full (true to print given names in full).
+*/ -}}
+{{- $names := slice }}
+{{- range .authors }}
+  {{- $family := .family | default "" }}
+  {{- $given := .given | default "" }}
+  {{- /* the owner appears as "Zuada Coelho", "Coelho, Bruno Zuada" or "Coelho, B." across sources */}}
+  {{- $isSelf := or (in $family "Zuada") (and (eq $family "Coelho") (hasPrefix $given "B")) }}
+  {{- if $isSelf }}
+    {{- $names = $names | append "<strong>B. Zuada Coelho</strong>" }}
+  {{- else if $.full }}
+    {{- $names = $names | append (printf "%s %s" $given $family | htmlEscape) }}
+  {{- else }}
+    {{- $initials := slice }}
+    {{- range split (replace $given "-" " ") " " }}
+      {{- if in . "." }}
+        {{- $initials = $initials | append . }}
+      {{- else if . }}
+        {{- $initials = $initials | append (printf "%s." (substr . 0 1)) }}
+      {{- end }}
+    {{- end }}
+    {{- $names = $names | append (printf "%s %s" (delimit $initials " ") $family | htmlEscape) }}
+  {{- end }}
+{{- end }}
+{{- delimit $names ", " | safeHTML -}}

@@ -1,0 +1,32 @@
+{{- /*
+  One publication entry from data/references.json (CSL-JSON).
+  Arguments (dict): ref (the reference), showYear (append the year to the venue line).
+*/ -}}
+{{- $r := .ref }}
+{{- $link := "" }}
+{{- with $r.DOI }}{{ $link = printf "https://doi.org/%s" . }}{{ else }}{{ with $r.URL }}{{ $link = . }}{{ end }}{{ end }}
+{{- $container := index $r "container-title" | default (index $r "event-title") }}
+<li class="pub">
+  <p class="pub-title">
+    {{- if $link }}<a href="{{ $link }}">{{ $r.title }}</a>{{ else }}{{ $r.title }}{{ end -}}
+  </p>
+  {{- with $r.author }}
+  <p class="pub-authors">{{ partial "authors.html" (dict "authors" . "full" (eq $r.type "MSc-thesis")) }}</p>
+  {{- end }}
+  <p class="pub-venue">
+    {{- if eq $r.type "article-journal" }}
+      <em>{{ $r.journal }}</em>{{ with $r.volume }}, {{ . }}{{ end }}{{ with $r.issue }}({{ . }}){{ end }}{{ with $r.page }}, {{ . }}{{ end }}
+    {{- else if eq $r.type "paper-conference" }}
+      <em>{{ $container }}</em>{{ with index $r "event-place" }}, {{ . }}{{ end }}
+    {{- else if eq $r.type "book-chapter" }}
+      In <em>{{ $container }}</em>
+      {{- with $r.editor }} (eds. {{ partial "authors.html" (dict "authors" .) }}){{ end }}
+      {{- with $r.publisher }}, {{ . }}{{ end }}
+    {{- else if eq $r.type "thesis" }}
+      PhD thesis, {{ $r.school }}
+    {{- else if eq $r.type "MSc-thesis" }}
+      MSc thesis, {{ $r.school }}
+    {{- end }}
+    {{- if .showYear }} · {{ $r.date }}{{ end -}}
+  </p>
+</li>

@@ -1,0 +1,23 @@
+{{- /* full software entry from data/software.yaml: text with links, media on the side */ -}}
+{{- $hasMedia := partial "has-media.html" .media }}
+<article class="project{{ if $hasMedia }} has-media{{ end }}" id="{{ .name | urlize }}">
+  <div class="project-text">
+    <h3 class="project-name">
+      <a href="{{ .url }}">{{ .name }}</a>
+      {{- with .lang }} <span class="tag">{{ . }}</span>{{ end }}
+    </h3>
+    <p class="project-desc">{{ .description | markdownify }}</p>
+    {{- with .related }}
+    <p class="project-related">
+      Related:
+      {{- range $i, $r := . }}{{ if $i }} ·{{ end }} <a href="{{ $r.url }}">{{ $r.name }}</a>{{ end }}
+    </p>
+    {{- end }}
+    {{- partial "link-list.html" .links }}
+  </div>
+  {{- if $hasMedia }}
+  <div class="project-media">
+    {{- range .media }}{{ partial "media.html" . }}{{ end }}
+  </div>
+  {{- end }}
+</article>

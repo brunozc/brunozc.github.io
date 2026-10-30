@@ -1,64 +1,69 @@
-baseURL = 'https://brunozc.github.io'
+baseURL = 'https://brunozc.github.io/'
 languageCode = 'en-us'
 title = 'Bruno Zuada Coelho'
-theme = 'gokarna'
+
+# the site has no blog: skip tag/category pages, section lists and RSS feeds
+disableKinds = ['taxonomy', 'term', 'section', 'rss']
+enableRobotsTXT = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 2
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About Me"
-    url = "/pages/about_me"
-    weight = 1  # Weights are used to determine the ordering
+    name = "About"
+    pageRef = "/pages/about_me"
+    weight = 1
 
   [[menu.main]]
-    identifier = "research"
     name = "Research"
-    url = "/pages/research"
+    pageRef = "/pages/research"
     weight = 2
 
   [[menu.main]]
-    identifier = "software"
     name = "Software"
-    url = "/pages/software"
+    pageRef = "/pages/software"
     weight = 3
 
   [[menu.main]]
-    identifier = "contact"
     name = "Contact"
-    url = "/pages/contact"
+    pageRef = "/pages/contact"
     weight = 4
 
-
 [params]
-  # URL for the avatar on homepage
-  avatarURL = "/me.jpg"
+  description = "Expert in geotechnical dynamics and railway infrastructure at Deltares, working on soil dynamics, numerical modelling and machine learning."
+  role = "Expert"
+  affiliation = "Deltares"
+  affiliationURL = "https://www.deltares.nl/en"
+  department = "Safe and Resilient Infrastructure"
+  location = "Delft, the Netherlands"
+  email = "bruno.zuadacoelho@deltares.nl"
+  portrait = "media/home/portrait.jpg"
 
-  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-m"
+  # profile links, shown on the home page, the contact page and in the footer.
+  # icon must match a name in layouts/partials/icon.html
+  [[params.profiles]]
+    name = "Email"
+    icon = "email"
+    url = "mailto:bruno.zuadacoelho@deltares.nl"
 
-  # Description to display on homepage
-  description = "I am a research engineer with an interest in dynamics, numerical modelling and AI."
+  [[params.profiles]]
+    name = "Google Scholar"
+    icon = "googlescholar"
+    url = "https://scholar.google.nl/citations?user=AQkEIFIAAAAJ&hl=en"
 
-  # Accent color is displayed when you hover over <a> tags
-  accentColor = "#FF4D4D"
+  [[params.profiles]]
+    name = "GitHub"
+    icon = "github"
+    url = "https://github.com/brunozc"
 
-  # You can use this to inject any HTML in the <head> tag.
-  # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+  [[params.profiles]]
+    name = "LinkedIn"
+    icon = "linkedin"
+    url = "https://www.linkedin.com/in/bruno-zuada-coelho/"
 
-  # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo"]
-
-  # If you want to display posts on the homepage, the options are
-  # "popular" (order posts by weight), "recent" (order posts by date)
-  # or "" (do not display, default option)
-  showPostsOnHomePage = ""
-
-  socialIcons = [
-    {name = "linkedin", url = "https://www.linkedin.com/in/bruno-zuada-coelho/"},
-    {name = "researchgate", url = "https://www.researchgate.net/profile/Bruno-Zuada-Coelho"},
-    {name = "googlescholar", url = "https://scholar.google.nl/citations?user=AQkEIFIAAAAJ&hl=en"},
-    {name = "github", url = "https://github.com/brunozc"},
-    ]
-
-  # Footer text
+  [[params.profiles]]
+    name = "ResearchGate"
+    icon = "researchgate"
+    url = "https://www.researchgate.net/profile/Bruno-Zuada-Coelho-2"

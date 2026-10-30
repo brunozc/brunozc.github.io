@@ -1,0 +1,18 @@
+{{- /* structured data so search engines can link this page to the researcher profiles */ -}}
+{{- $sameAs := slice }}
+{{- range site.Params.profiles }}{{ if not (hasPrefix .url "mailto:") }}{{ $sameAs = $sameAs | append .url }}{{ end }}{{ end }}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" site.Title
+  "url" site.BaseURL
+  "image" (site.Params.portrait | absURL)
+  "jobTitle" site.Params.role
+  "email" site.Params.email
+  "worksFor" (dict "@type" "Organization" "name" site.Params.affiliation "url" site.Params.affiliationURL)
+  "alumniOf" (slice
+    (dict "@type" "CollegeOrUniversity" "name" "Delft University of Technology")
+    (dict "@type" "CollegeOrUniversity" "name" "University of Porto"))
+  "sameAs" $sameAs
+}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>

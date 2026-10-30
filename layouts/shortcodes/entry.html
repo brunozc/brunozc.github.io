@@ -1,0 +1,18 @@
+{{- /*
+  CV-style timeline entry.
+  Usage: {{< entry period="2013 – present" title="Deltares" url="https://..." subtitle="Senior Researcher" >}}text{{< /entry >}}
+*/ -}}
+<div class="entry">
+  <div class="entry-period">{{ .Get "period" }}</div>
+  <div class="entry-body">
+    <h3 class="entry-title">
+      {{- with .Get "url" }}<a href="{{ . }}">{{ $.Get "title" }}</a>{{ else }}{{ .Get "title" }}{{ end -}}
+    </h3>
+    {{- with .Get "subtitle" }}
+    <p class="entry-subtitle">{{ . | markdownify }}</p>
+    {{- end }}
+    {{- with .InnerDeindent }}
+    {{ $.Page.RenderString (dict "display" "block") . }}
+    {{- end }}
+  </div>
+</div>

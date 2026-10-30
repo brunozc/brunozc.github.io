@@ -1,0 +1,88 @@
+# Research themes: rendered in full on the Research page, and as title + `short` on the home page.
+#
+#   papers:   DOIs (or exact titles, for papers without a DOI) from data/references.json
+#   software: names of entries in data/software.yaml (linked to the Software page)
+#   media:    images (.png/.jpg) or videos (.mp4) inside static/media/research/. When a file does not exist yet,
+#             `hugo server` shows a placeholder describing what to add; the production build hides it.
+
+themes:
+  - id: subsurface-ai
+    title: AI for subsurface characterisation
+    short: Generative models, data fusion and reinforcement learning to schematise the subsurface.
+    summary: >-
+      Subsurface data are sparse and expensive to collect. I develop machine-learning methods that combine
+      CPTs, geophysical surveys and geological maps into 2D and 3D subsurface schematisations, and that use
+      reinforcement learning to decide where the next in-situ test is most valuable.
+    papers:
+      - 10.1016/j.compgeo.2025.107177
+      - 10.1016/j.geoai.2025.100038
+      - 10.1016/j.aei.2022.101671
+    software: [SchemaGAN, CPT SuperLearn, Data Fusion Tools]
+    media:
+      - src: media/research/soil_profile.png
+        caption: Median Ic along a cross-section after residual conditioning, shown as soil behaviour type (SBT) zones.
+
+  - id: digital-twins
+    title: Digital twins for infrastructure
+    short: Hybrid models that combine numerical simulations with monitoring data.
+    summary: >-
+      Hybrid models couple numerical simulations with measurements and machine learning. By updating the
+      model as new data become available, they learn and predict how infrastructure, such as railway tracks
+      and embankments, behaves over its lifetime.
+    papers:
+      - 10.4203/ccc.15.18.1
+      - 10.1016/j.trgeo.2021.100578
+      - An open-source finite element approach complementary to a data-driven approach for assessment of line-infrastructure
+    software: [ROSE network dashboard]
+    media:
+      - src: media/research/digitwin.png
+        caption: 3D subsurface schematisation along a line infrastructure, classified as sand, silt, clay and peat.
+
+  - id: track-degradation
+    title: Railway track degradation
+    short: Train-track interaction and long-term settlement, from transition zones to the whole network.
+    summary: >-
+      Modelling of train-track interaction and of the permanent deformation of ballasted tracks under train
+      traffic, with particular attention to transition zones and to assessments at network level.
+    papers:
+      - 10.1016/j.compgeo.2020.103712
+      - 10.1016/j.trgeo.2021.100578
+      - 10.1177/0954409716683078
+    software: [ROSE]
+    media:
+      - src: media/research/transition_zone_sett.png
+        caption: Vertical displacement of the track across a transition zone at 300 m, after 122, 243 and 365 days.
+
+  - id: vibrations
+    title: Railway-induced vibrations
+    short: Prediction of ground-borne vibrations, their uncertainty and critical train speeds.
+    summary: >-
+      Prediction of ground-borne vibrations caused by trains, from the train-track interaction to the wave
+      propagation through the subsurface, including the uncertainty introduced by the spatial variability of
+      the soil and the critical train speed on soft soils.
+    papers:
+      - 10.1016/j.softx.2026.102892
+      - 10.1016/j.soildyn.2023.107855
+      - 10.1051/e3sconf/202673005001
+    software: [STEM, OURS, TrainCritSpeed]
+    media:
+      - src: media/research/v_disp_750.png
+        caption: Vertical displacement of the ground during the passage of a train, computed with STEM.
+
+  - id: cyclic-behaviour
+    title: Cyclic behaviour of soft soils
+    short: Constitutive models for the permanent deformation of soft soils under cyclic loading.
+    summary: >-
+      Constitutive models for the accumulation of permanent deformation in natural soft soils under cyclic
+      and dynamic loading, accounting for anisotropy, bonding and rate dependence, and the use of neural
+      networks to represent soil behaviour.
+    papers:
+      - 10.1016/j.compgeo.2021.104176
+      - 10.1016/j.trgeo.2023.101011
+      - Using neural network components to model soil constitutive behaviour
+    software: [ConstitutiveModels]
+    media:
+      - src: media/research/creep_sclay1sc.png
+        caption: >-
+          Accumulation of axial strain with the number of load cycles: laboratory test compared with single-element
+          and boundary-value simulations.

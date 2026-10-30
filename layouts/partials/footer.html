@@ -1,7 +1,10 @@
-<footer class="footer">
-    <span>Content & images licensed under
-    <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &copy; {{ now.Year }} {{ .Site.Params.Footer}}</span>
-    <span>
-        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
-    </span>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>
+      &copy; {{ now.Year }} {{ site.Title }} ·
+      Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·
+      Built with <a href="https://gohugo.io/">Hugo</a>
+    </p>
+    {{ partial "profiles.html" (dict "compact" true) }}
+  </div>
 </footer>

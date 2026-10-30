@@ -1,0 +1,7 @@
+{{- with . }}
+<ul class="link-list">
+  {{- range . }}
+  <li><a href="{{ .url }}">{{ .label }}</a></li>
+  {{- end }}
+</ul>
+{{- end }}
